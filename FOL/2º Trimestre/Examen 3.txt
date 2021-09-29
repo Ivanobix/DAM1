@@ -1,0 +1,399 @@
+1. En especie - 30% de la retribución total - Sí, por 90 euros.
+
+2. Sí - Sí, un 10% del salario anual - No, solo puede pedir el pago anticipado de lo que ya ha trabajado.
+
+3. Sí, el del convenio colectivo o el pactado entre la empresa y los representantes de los trabajadores. - No, deberían cobrar 900 brutos - En el convenio colectivo en el que está incluida su categoría.
+
+4. Sí, por la disminución de ventas - 2 trimestres consecutivos - comisión paritaria del convenio.
+
+5. Si - Sí - 20 días por año trabajado
+
+6. Sí, No, 30%
+
+7. 345 // 900
+
+8. Significa que primero se venden todos los bienes de la empresa y si eso no es suficiente se acude al FOGASA - Solo recuperará 4 meses no pagados - Sí, los 330
+
+9. Le deben 3 meses de salario (-1 mes pagado tras vender los bienes de la empresa) y 90 días por despido, por lo que el FOGASA le pagará 
+Por salario: 60x40 = 2400$
+Por despido: 60x40 = 2400$
+
+2(145).
+	A) Salario bruto = 
+		SB 800
+		PLUS CONVENIO 100
+		INCENTIVOS 220
+		DIETAS 200
+		HORAS EXTRA 120
+	      + PAGA EXTRA (800X2)/12 = 133,33
+		---------------------------------------
+		1573,33 euros
+
+	B) Bases de cotización = 
+		SB 800
+		PLUS CONVENIO 100
+		INCENTIVOS 220
+		DIETAS no cotizan
+	      + PAGA EXTRA 133,33
+		---------------------------------------
+		BCCC = 1253,33
+
+		BCCP = BCCC + horas extra = 1253,33 +120
+		BCCP = 1373,33
+		BHE = 120 
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 38,91
+		DESEMPLEO = 1,5% BCCP= 21,29
+		FP = 0,1% BCCP = 1,37
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 5,64
+		---------------------------------------
+		87,21
+
+	D) IRPF =
+		BASE IRFP = SALARIO BRUTO - DIETAS(EXENTAS)
+		1373,33 = 1573,33 -200
+		RETENCIÓN IRPF = 14% BASE IRPF = 192,27
+
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES
+		1573,33 - 87,21 - 192,27 = 1293,85
+
+
+3(145).
+
+	A) Salario bruto = 
+		SB 1200
+		PLUS CONVENIO 150
+		PLUS RESPONSABILIDAD 300
+		DIETAS 90
+		HORAS EXTRA 120
+	      + PAGA EXTRA (1200X2)/12 = 200
+		---------------------------------------
+		2060
+
+	B) Bases de cotización = 
+		SB 1200
+		PLUS CONVENIO 150
+		PLUS RESPONSABILIDAD 300
+		DIETAS NO COTIZAN
+	      + PAGA EXTRA (1200X2)/12 = 200
+		---------------------------------------
+		BCCC = 1850
+		BCCP = BCCC + horas extra
+		BCCP = 1970
+		BHE =  120
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 86,95
+		DESEMPLEO = 1,55% BCCP= 31,52
+		FP = 0,1% BCCP = 19,7
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 5,64
+		---------------------------------------
+		143,81‬
+
+	D) IRPF =
+		BASE IRFP = SALARIO BRUTO - DIETAS(EXENTAS)
+		2060 - 90 = 1970
+		RETENCIÓN IRPF = 16% BASE IRPF = 315,2
+
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES= 2060 - 125,10 - 315,2 = 1.619,7‬
+		
+
+4(145).
+
+	A) Salario bruto = 
+		SB 950
+		PLUS PELIGROSIDAD 100
+		PLUS NOCTURNIDAD 50
+		GASTOS LOCOMOCIÓN 60
+		DIETAS 50
+	      + HORAS EXTRA 90
+		---------------------------------------
+		1300
+
+	B) Bases de cotización = 
+		SB 950
+		PLUS PELIGROSIDAD 100
+		PLUS NOCTURNIDAD 50
+		DIETAS NO COTIZAN
+	      + PAGA EXTRA (950X2)/12 = 158,33
+		---------------------------------------
+		BCCC = 1258,33
+		BCCP = BCCC + horas extra
+		BCCP = 1348,33
+		BHE =  90
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 59,14
+		DESEMPLEO = 1,6% BCCP= 21,57
+		FP = 0,1% BCCP = 1,35
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 4,23
+		---------------------------------------
+		86,29
+
+	D) IRPF =
+		BASE IRPF = SALARIO BRUTO - DIETAS(EXENTAS)
+		1300 - 60 - 50 = 1190
+		RETENCIÓN IRPF = 15% BASE IRPF = 178,5
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES= 1300 - 86,29 - 178,5 = 1035,21
+
+
+7(145).
+
+	A) Salario bruto = 
+		SB 900
+		PLUS PELIGROSIDAD 90
+		PLUS CONVENIO 120
+		PAGA EXTRA (900X2)/12 = 150
+		PAGA POR BENEFICIOS 37,5
+	      + HORAS EXTRA 50
+		---------------------------------------
+		1.347,5‬
+
+	B) Bases de cotización = 
+		SB 900
+		PLUS PELIGROSIDAD 90
+		PLUS CONVENIO 120
+		PAGA EXTRA (900X2)/12 = 150
+	      + PAGA POR BENEFICIOS 37,5
+		---------------------------------------
+		BCCC = 1.297,5‬
+		BCCP = BCCC + horas extra
+		BCCP = 1.347,5‬
+		BHE =  50
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 60,9825
+		DESEMPLEO = 1,55% BCCP= 20,88625‬
+		FP = 0,1% BCCP = 1,3475‬
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 2,35‬
+		---------------------------------------
+		85,56625‬
+
+	D) IRPF =
+		BASE IRPF = SALARIO BRUTO - DIETAS(EXENTAS)
+		1.347,5‬
+		RETENCIÓN IRPF = 15% BASE IRPF = 202,125‬
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES= 1347,5‬ - 85,56625‬ - 202,125‬ = 1.059,80875
+
+
+5(145).
+
+	A) Salario bruto = 
+		SB 32X31 = 992
+		PLUS CONVENIO 4X31= 124
+		PLUS DISTANCIA 2X31= 62
+		DIETAS (4 DÍAS) 105
+		PAGA EXTRA 2X(32X30)/365= 5,26/día x31= 163,06
+	      + HORAS EXTRA 80
+		---------------------------------------
+		1526,06
+
+	B) Bases de cotización = 
+
+		BCCC = 32 + 4 + 2 + 5,26 = 43,26 /día X 31 = 1341,06
+		BCCP = BCCC + horas extra
+		BCCP = 1421,06
+		BHE =  80
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 63,02
+		DESEMPLEO = 1,6% BCCP= 22,74
+		FP = 0,1% BCCP = 1,42
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 3,76
+		---------------------------------------
+		90,94
+
+	D) IRPF =
+		BASE IRPF = SALARIO BRUTO - DIETAS(EXENTAS)
+		1526,06 - 105 = 1421,06
+		RETENCIÓN IRPF = 13% BASE IRPF = 184,74
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES= 1250,38
+
+
+6(145).
+
+	A) Salario bruto = 
+		SB 40X31 = 1.240‬
+		PLUS CONVENIO 2,50X31= 77,5
+		PLUS PRODUCTIVIDAD 3X31= 93
+		PAGA EXTRA 2X(40X30)/365= 6,5753/día x31= 203,8356
+	      + HORAS EXTRA 50
+		---------------------------------------
+		1.664,3356‬
+
+	B) Bases de cotización = 
+
+		BCCC = 40 + 2,50 + 3 + 6,5753 = 52,0753 /día X 31 = 1.614,3343‬
+		BCCP = BCCC + horas extra
+		BCCP = 1.664,3343
+		BHE =  50
+
+	C) Total cuotas a ingresar =
+		CC = 4,7% BCCC= 75,8737
+		DESEMPLEO = 1,55% BCCP= 25,7971
+		FP = 0,1% BCCP = 1,6643
+	      + HORAS EXTRA ORDINARIAS = 4,7% BHE= 2,35
+		---------------------------------------
+		105,6851
+
+	D) IRPF =
+		BASE IRPF = SALARIO BRUTO - DIETAS(EXENTAS)
+		1.664,3356‬
+		RETENCIÓN IRPF = 15% BASE IRPF = 249,6503
+
+	E) SALARIO NETO = 
+		SALARIO BRUTO - DEDUCCIONES= 1664,3356‬ - 105,6851 - 249,6503 = 1.309,0002
+
+|---------------------------------------ಥ_ಥ---------------------------------------|                      (╯°□°）╯︵ ┻━┻
+
+2(151). Fuera del grupo profesional, Sí dado que trabaja más de 6 meses en un año, Movilidad extraordinaria
+3(151). Sí dado que no supone un cambio de residencia, Un Desplazamiento, Aceptarlo o recurrirlo en 20 días hábiles, Traslado porque se es más de 1 año en un periodo de 3. Belén sí pero Carmen no.
+
+4(152). Horario y distribución del tiempo de trabajo // Objetivas //
+5(152)Sí dado que son causas objetivas// Sí, para empresas de menos de 100 trabajadores con 10 basta // periodo de consultas //7 días// Los representantes
+6(153). Por riesgo durante el embarazo// por causas objetivas // por suspensión de empleo y sueldo por razones disciplinarias // por víctima de violencia de género // por fuerza mayor temporal // por solicitar una excedencia.
+7(154). 18 semanas y 10 días // 6 // Seguidas como periodos por semana // 10 // 14 y 18 // Se tiene derecho igualmente // A partir de la 6º // 15 días // 180 días en los 7 años últimos // 180 días en los últimos 7 años // Lo paga la Seguridad Social, el 100%
+
+8(156). Por cuidado de hijo/a, hasta los 3 años // Cuando acabe el periodo de maternidad y lactancia// Solo tiene reserva el 1º año // En caso de que ambos padres que trabajan en la misma empresa pidan la excedencia por el mismo hijo
+9(156). Forzosa // Antes de 30 días // Sí
+10(156). Por cuidado de familiares // Sí, el máximo son 2 años // Se le reserva el 1º año
+11(156). Voluntaria // Sí // En 4 años // No // Un mes //  No
+
+12(157). Como abandono // El empresario puede pedir daños y prejuicios en caso de que le origine pérdidas y no tendría derecho a ninguna indemnización// Preavisar con los días de antelación marcados en convenio.
+13(157). Por incumplimiento grave de la empresa // Presentar una solicitud al Juzgado de lo Social para extinguir el contrato // Debe seguir trabajando // 33 días por año trabajado // Sí dado que se trata de un incumplimiento grave por parte de la empresa // Pedir la baja
+14(158). Por disminución continuada y voluntaria en el rendimiento normal de trabajo // Ofensas verbales o físicas al empresario, trabajadores o familiares de ellos // Acoso racial, étnico, por motivos de religión... // Faltas repetidas e injustificadas de asistencia o puntualidad al trabajo que establezca el convenio como falta muy grave // Indisciplina o desobediencia en el trabajo // Abuso de confianza y la trasgresión de la buena fe contractual
+15(160). Disciplinario. Ofensas verbales o físicas hacia un compañero // Entregarle una carta de despido  // Nada // 20 días hábiles // Tendrá que presentar una demanda ante el juzgado. 11 // Despido improcedente // Pagar una indemnización o readmitir al trabajador // 45000 (45 días x20 años x50 euros_día) El límite sería 63000 // El salario de esos 8 meses 
+16(160). No // Despido nulo. Deberá reamitir al trabajador y pagarle los gastos de tramitación // Deberá pagarle los gastos de tramitación.
+-----------------------------------------------------------------------------------------
+17(161). Falta de adaptación // 2 meses d esde la modificación // Sí // Una indemnización de 20 días por año // Debe devolver la indemnización cobrada de 20 días por año pero cobrará los salarios de tramitación por readmisión // Lo correspondiente a 13 días
+
+18(162). Despido por causas objetivas (económicas) ya que no despide al número mínimo de trabajadores para considerarse un despido colectivo // 15 días // Sí, deberá pagarle dichos días de salario
+
+19(162). Sí, porque despide a más del 10% de la plantilla // 7 días // 13 miembros // 30 días // Los representantes de los trabajadores // Ofrecer un curso de formación gratuito // Realizar advertencias y recomendaciones // Puede impugnar el despido colectivo ante el Tribunal Superior de Justicia // 30 días de antelación.
+
+20(163). Despido de fuerza mayor pues impide continuar de manera definitiva con el trabajo // Se envía la documentación a la Autoridad Laboral // 20 días por año trabajado hasta un máximo de 360 días.
+
+1(166). Salario anual (1500x12) + (1500x2) = 21000
+	Salario diario 21000 / 365 = 57,57
+	Indemnización 20 x 57,53 x 15 = 17259
+	Pero el límite son 270 días, por lo que la indemnización 	legal serían 270x57,53 = 15533,10
+
+2(166). Salario anual (27,50x30x12) + (825x2) = 11687,5
+	Salario diario 11687,5/ 365 = 32,02
+	Indemnización 45 x 32,02 x 3,33 = 4798,20
+
+3(166). 
+   1) Salario de los 20 días trabajados:
+
+	S.Base	1080/30x20 = 720
+	P.Conv	145/30x20 = 96,60
+	P.Dist	90/30x20 = 60
+	P.Extr	2x1080/12 = 180; 180/30x20 = 120
+	--------Salario Bruto = 996,60
+	BCCC = 996,60
+	BCCP = 996,60
+
+	Cuotas:
+	CC	46,84
+	Desem	15,45
+	FP	1
+	--------Deducciones = 63,29
+
+	IRPF:
+	Base	996,60
+	--------Reten = 159,46
+
+	Salario Neto = 996,60 - 63,29 - 159,46 = 773,85
+
+   2)Salario vacaciones no disfrutadas
+	
+	Dias trabajados = 31+28+31+30+20 = 140 días
+	Vacaciones = [365 - 30] = 11,50 días
+		     [140 - x]
+	Salario diario durante vacaciones
+	S.Base	1080/30 = 36
+	P.Conv	105/30 = 3,5
+	P.Dist	no se percibe en vacaciones
+	parte proporcional pagas extra	1080/180 = 6
+	--------Salario diario = 46,83
+	--------Salario bruto = 46,83 x 11,50= 538,55
+	Cuotas:
+	CC	25,31
+	Desmp	8,35
+	FP	0,54
+	--------Deducciones = 34,20
+	IRPF:
+	Base	538,55
+	--------Reten = 86,17
+	
+	Salario Neto = 538,55 - 34,20 - 86,17 = 418,18
+
+   3) Indemnización
+	20 días x salario diario x años antigüedad
+	Salario anual (1080x12) + (145x12) + (2x1080) = 16860
+	Salario diario 16860/365 = 46,19
+	Antigüedad = 20x12 = 240 días (dentro de los límites)
+	Indemnización = 20 x 46,19 x 12 = 11085,60
+
+   TOTAL FINIQUITO = 733,85 + 418,18 + 11085,60 = 12277,63
+	
+4(166). 
+   1) Salario de los 24 días trabajados:
+	S.Base	870/30x24 = 696
+	P.Conv	105/30x24 = 84
+	P.Tran	100/30x24 = 80
+	P.Extr	2x870/12 =145 ; 145/30x24 = 116
+	--------Salario Bruto = 976
+	BCCC = 976
+	BCCP = 976 (igual que BCCC porque no hay horas extras)
+
+	Cuotas:
+	CC	45,87
+	Desem	15,62
+	FP	0,98
+	--------Deducciones = 62,47
+
+	IRPF:
+	Base	976
+	--------Reten = 19,52
+
+	Salario Neto = 976 - 62,47 - 19,52 = 894,01
+
+   2) Salario vacaciones no disfrutadas:
+
+	Dias trabajados = 15+28+31+24 = 98 días
+	Vacaciones = [365 - 30] = 8,05 días
+		     [98 - x]
+	
+	S.Base	870/30 = 29
+	P.Conv	105/30 = 3,5
+	parte proporcional pagas extra	145/30 = 4,83
+	--------Salario diario = 37,33
+	--------Salario bruto = 37,33 x 8,05 = 300,51
+	Cuotas:
+	CC	14,12
+	Desmp	4,81
+	FP	0,30
+	--------Deducciones = 19,23
+	IRPF:
+	Base	300,51
+	--------Retencion = 6,01
+	
+	Salario Neto = 300,51 - 19,23 - 6,01 = 275,27
+
+   3) Indemnización:
+	24 días x salario diario x años antigüedad
+	Salario anual (870x12) + (105x12) + (2x870) = 13440
+	Salario diario 13440/365 = 36,82
+	Antigüedad = 98/365 = 0,27 años
+	Indemnización = 0,27 x 36,82 x 12 = 119,30
+	Retención = 2% x 119,30 = 2,39 (esta indemnización tributa)
+	Indemnización neta =  119,30 - 2,39 = 116,91
+
+   TOTAL FINIQUITO = 894,01 + 275,27 + 116,91 = 1286,19
