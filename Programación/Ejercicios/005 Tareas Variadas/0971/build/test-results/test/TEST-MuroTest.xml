@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MuroTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-10T08:58:05" hostname="IvánGP" time="0.038">
+  <properties/>
+  <testcase name="metodo01" classname="MuroTest" time="0.038"/>
+  <system-out><![CDATA[Usuario: Ivan
+Soy Ivan
+Me gusta: 0
+Hace 0 segundos
+No hay comentarios
+
+Usuario: Angel
+Soy Angel
+Me gusta: 0
+Hace 0 segundos
+No hay comentarios
+
+Usuario: Diego
+www.diego.com
+Hola
+Me gusta: 0
+Hace 0 segundos
+No hay comentarios
+
+Usuario: Dani
+www.dani.com
+Adios
+Me gusta: 0
+Hace 0 segundos
+No hay comentarios
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

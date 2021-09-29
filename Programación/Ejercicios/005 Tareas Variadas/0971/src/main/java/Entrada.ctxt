@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Entrada
+comment1.params=autor
+comment1.target=Entrada(java.lang.String)
+comment2.params=
+comment2.target=void\ meGusta()
+comment3.params=texto
+comment3.target=void\ addComentario(java.lang.String)
+comment4.params=
+comment4.target=java.time.LocalDateTime\ getMomentoPublicacion()
+comment5.params=
+comment5.target=java.lang.String\ getTiempoPasadoDesdeLaPublicacion()
+comment6.params=
+comment6.target=java.lang.String\ getUsuario()
+comment7.params=
+comment7.target=int\ getMeGusta()
+comment8.params=
+comment8.target=java.util.ArrayList\ getComentarios()
+numComments=9

@@ -1,0 +1,26 @@
+public String getTareasPorPrioridad() {
+        String aDevolver = "";
+        Tarea tareaAAñadir = null;
+        int prioridadMasAlta = 5;
+        int cont = 0;
+
+        ArrayList<Tarea> copiaTareas = new ArrayList<Tarea>();
+        for (Tarea tarea: tareas) {
+            copiaTareas.add(tarea);
+        }
+
+        while (cont < tareas.size()) {
+            for (Tarea tarea : copiaTareas) {
+                if (tarea.getPrioridad() <= prioridadMasAlta) {
+                    prioridadMasAlta = tarea.getPrioridad();
+                    tareaAAñadir = tarea;
+                }
+            }
+            copiaTareas.remove(tareaAAñadir);
+            prioridadMasAlta = 5;
+            cont++;
+            aDevolver += tareaAAñadir.getTextoTarea() + " " +tareaAAñadir.getPrioridad() + "\n";
+        }
+
+        return aDevolver;
+    }

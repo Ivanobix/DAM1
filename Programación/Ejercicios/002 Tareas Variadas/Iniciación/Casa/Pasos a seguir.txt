@@ -1,0 +1,11 @@
+-new circle(), new Square(), new Square(), new Triangle()
+
+-void makeVisible(), void makeVisible(), void makeVisible(), void makeVisible()
+
+-void changeColor "yellow" Color "red", void changeColor "black", void changeColor "green"
+
+-void changeSize CASA(80), void changeSize SOL(50), void changeSize VENTANA(25), void changeSize TEJADO(60,130)
+
+-void moveHorizontal TEJADO(140), void moveHorizontal VENTANA(10), void moveHorizontal SOL(200)
+
+-void moveVertical TEJADO(-80), void moveVertical VENTANA(15), void moveVertical SOL(-30)

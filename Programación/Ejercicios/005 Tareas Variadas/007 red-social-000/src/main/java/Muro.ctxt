@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Muro
+comment0.text=\r\n\ El\ muro\ de\ nuestra\ red\ social.\r\n\r\n\ El\ muro\ es\ el\ lugar\ donde\ los\ usuarios\ publicaran\ sus\ entradas.\r\n\r\n\ @author\ DAM\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Muro()
+comment1.text=\r\n\ Constructor\ -\ Construye\ e\ inicializa\ un\ muro\ vacio.\r\n
+comment2.params=entrada
+comment2.target=void\ addEntrada(Entrada)
+comment2.text=\r\n\ Anade\ una\ entrada\ de\ texto\ al\ muro.\r\n\ @param\ entrada\ La\ entrada\ de\ texto\ a\ anadir.\r\n
+comment3.params=
+comment3.target=void\ mostrarDetallesTodasLasEntradas()
+comment4.params=
+comment4.target=java.lang.String[]\ getUrlsFotos()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ del\ muro.\r\n\ @return\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ del\ muro.\r\n
+numComments=6

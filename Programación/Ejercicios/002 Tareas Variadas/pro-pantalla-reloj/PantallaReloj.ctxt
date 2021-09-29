@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PantallaReloj
+comment0.text=\r\n\ La\ clase\ PantallaReloj\ implementa\ una\ pantalla\ de\ reloj\ digital\ para\ un\ reloj\r\n\ de\ 24\ horas\ al\ estilo\ europeo.\ El\ reloj\ muestra\ las\ horas\ y\ los\ minutos.\ El\ rango\ del\r\n\ reloj\ es\ de\ 00\:00\ (medianoche)\ a\ 23\:59\ (un\ minuto\ antes\ de\ medianoche).\r\n\ \r\n\ La\ pantalla\ del\ reloj\ recibe\ "pulsos"\ a\ traves\ del\ metodo\ "pulso"\ a\ cada\ minuto\ y\r\n\ reacciona\ incrementando\ la\ pantalla.\ Evidentemente,\ cuando\ los\ minutos\ pasan\ de\ nuevo\ \r\n\ a\ cero\ se\ incrementan\ las\ horas.\r\n\r\n\ @author\ Michael\ Kolling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=PantallaReloj()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ PantallaReloj.\ Este\ constructor\ crea\ un\ nuevo\ reloj\r\n\ con\ hora\ 00\:00.\r\n
+comment2.params=horas\ minutos
+comment2.target=PantallaReloj(int,\ int)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ PantallaReloj.\ Este\ constructor\ crea\ un\ nuevo\ reloj\r\n\ con\ la\ hora\ especificada\ en\ los\ parametros.\r\n
+comment3.params=
+comment3.target=void\ pulso()
+comment3.text=\r\n\ Este\ metodo\ debe\ invocarse\ una\ vez\ cada\ minuto.\ Provoca\ que\ la\r\n\ pantalla\ del\ reloj\ avance\ un\ minuto.\r\n
+comment4.params=horas\ minutos
+comment4.target=void\ setTiempo(int,\ int)
+comment4.text=\r\n\ Fija\ la\ hora\ de\ la\ pantalla\ con\ la\ hora\ y\ los\ minutos\ especificados.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getTextoDeLaPantalla()
+comment5.text=\r\n\ Devuelve\ la\ hora\ actual\ de\ esta\ pantalla\ en\ el\ formao\ HH\:MM.\r\n
+numComments=6

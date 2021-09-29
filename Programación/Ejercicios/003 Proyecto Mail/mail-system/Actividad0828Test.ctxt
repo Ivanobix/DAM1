@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Actividad0828Test
+comment0.text=\r\n\ The\ test\ class\ MailClientTest.\r\n\r\n\ @author\ \ Miguel\ Bayon\ Alonso\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ testFuncionalidad01()
+comment1.text=\r\n\ Test\ de\ la\ funcionalidad\ 01\ (asunto)\r\n
+comment2.params=
+comment2.target=void\ testFuncionalidad02()
+comment2.text=\r\n\ Test\ de\ la\ funcionalidad\ 02\ (obtener\ el\ numero\ de\ mensaje\ pendientes\ de\ descargar)\r\n
+comment3.params=
+comment3.target=void\ testFuncionalidad03()
+comment3.text=\r\n\ Test\ de\ la\ funcionalidad\ 03\ (recuperar\ el\ ultimo\ mensaje\ descargado)\r\n
+comment4.params=
+comment4.target=void\ testFuncionalidad04()
+comment4.text=\r\n\ Test\ de\ la\ funcionalidad\ 04\ (respuesta\ automatica)\r\n
+comment5.params=
+comment5.target=void\ testFuncionalidad05()
+comment5.text=\r\n\ Test\ de\ la\ funcionalidad\ 05\ (spam)\r\n
+comment6.params=
+comment6.target=void\ testFuncionalidad06()
+comment6.text=\r\n\ Test\ de\ la\ funcionalidad\ 06\ (estadisticas)\r\n
+numComments=7

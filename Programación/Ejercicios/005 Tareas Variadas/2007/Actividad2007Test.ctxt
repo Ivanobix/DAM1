@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Actividad2007Test
+comment1.params=
+comment1.target=void\ test01ColeccionEjemplo()
+comment2.params=
+comment2.target=void\ test02ColeccionNormal()
+comment3.params=
+comment3.target=void\ test03ColeccionNumerica()
+comment4.params=
+comment4.target=void\ test04ColeccionGrande()
+comment5.params=
+comment5.target=void\ test05ColeccionVacia()
+numComments=6

@@ -1,0 +1,3 @@
+He durado 5 minutos
+Que el billete sea impreso solo en caso de haber pagado el dinero suficiente.
+Que tras pagar te devuelva el cambio en caso de haber pagado de más.

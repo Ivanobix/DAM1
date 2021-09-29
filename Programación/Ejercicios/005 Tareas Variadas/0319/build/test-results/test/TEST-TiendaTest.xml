@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TiendaTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-20T10:45:28" hostname="IvánGP" time="0.034">
+  <properties/>
+  <testcase name="Commit05" classname="TiendaTest" time="0.031"/>
+  <testcase name="Commit06" classname="TiendaTest" time="0.001"/>
+  <testcase name="Commit07" classname="TiendaTest" time="0.0"/>
+  <testcase name="Commit08" classname="TiendaTest" time="0.0"/>
+  <testcase name="Commit09" classname="TiendaTest" time="0.0"/>
+  <testcase name="Commit10" classname="TiendaTest" time="0.001"/>
+  <testcase name="Commit11" classname="TiendaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

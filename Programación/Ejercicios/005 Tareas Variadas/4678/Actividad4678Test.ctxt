@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Actividad4678Test
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ TestCommit02()
+comment4.params=
+comment4.target=void\ TestCommit03()
+comment5.params=
+comment5.target=void\ TestCommit04()
+numComments=6

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Actividad9772
+comment1.params=coleccionPalabras\ numeroDeLetras
+comment1.target=int\ cuantasPalabrasHayDeNLetras(java.util.ArrayList,\ int)
+numComments=2

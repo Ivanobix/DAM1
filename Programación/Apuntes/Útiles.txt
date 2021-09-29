@@ -1,0 +1,26 @@
+COMPROBAR CADENA NUMERICA:
+
+public static boolean comprobarIdNumerica(String id) {
+        try {
+            Integer.parseInt(id);
+            return true;
+        } catch (NumberFormatException nfe){
+            return false;
+        }
+    }
+
+
+SCANNER HASTA QUE SE INTRODUZCA ALGO: 
+
+Scanner sc = new Scanner(System.in);
+String cadena = "";
+boolean parar = false;
+while (!parar) {
+	System.out.println("Introduce la cadena: ");
+	cadena = sc.nextLine();
+	if (!cadena.isEmpty()) {
+		parar = true;
+		sc.close();
+	}
+			
+}

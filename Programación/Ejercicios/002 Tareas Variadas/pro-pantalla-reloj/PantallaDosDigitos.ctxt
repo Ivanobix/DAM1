@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PantallaDosDigitos
+comment0.text=\r\n\ La\ clase\ PantallaDosDigitos\ representa\ una\ pantalla\ que\ muestra\ valores\ num\u00C3\u00A9ricos\ enteros\ \r\n\ desde\ un\ valor\ inicial\ a\ un\ valor\ limite.\ El\ valor\ de\ la\ pantalla\ se\ muestra\ siempre\ con\ dos\ d\u00C3\u00ADgitos.\ \r\n\ Los\ valores\ iniciales\ y\ limite\ se\ especifican\ cuando\ se\ crea\ el\ objeto.\ Se\ puede\ hacer\ avanzar\ el\ valor\ \r\n\ mostrado\ por\ la\ pantalla\ a\ traves\ de\ un\ m\u00C3\u00A9todo,\ de\ tal\ manera\ que\ si\ el\ valor\ llega\ el\ limite\ vuelve\ al\r\n\ valor\ inicial.\r\n\ \r\n\ @author\ Miguel\ Bayon\r\n\ @version\ 1.0\r\n
+comment1.params=valorDeInicio\ limitePantalla
+comment1.target=PantallaDosDigitos(int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ PantallaDosDigitos\r\n\r\n\ @param\ valorDeInicio\ El\ valor\ de\ inicio\ del\ display\r\n\ @param\ limitePantalla\ El\ valor\ m\u00C3\u00A1ximo\ que\ no\ puede\ mostrar\ la\ pantalla\r\n
+comment2.params=
+comment2.target=int\ getValorAlmacenado()
+comment2.text=\r\n\ Devuelve\ el\ valor\ actual\ como\ n\u00C3\u00BAmero\ entero\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTextoDeLaPantalla()
+comment3.text=\r\n\ Devuelve\ el\ valor\ que\ muestra\ la\ pantalla\ como\ cadena\ de\ caracteres\ de\ longitud\ 2\r\n
+comment4.params=nuevoValor
+comment4.target=void\ setValorAlmacenado(int)
+comment4.text=\r\n\ Fija\ un\ nuevo\ valor\ para\ la\ pantalla.\ Si\ el\ nuevo\ valor\ no\ es\ legal,\ \r\n\ entonces\ no\ hace\ nada.\r\n
+comment5.params=
+comment5.target=void\ incrementaValorAlmacenado()
+comment5.text=\r\n\ Incrementa\ el\ valor\ de\ la\ pantalla.\ Si\ llega\ al\ limite\ cambia\ a\ uno.\r\n
+numComments=6

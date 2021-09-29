@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MuroTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-05-05T09:41:35" hostname="IVÁNGP" time="643.986">
+  <properties/>
+  <testcase name="test01" classname="MuroTest" time="643.986">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

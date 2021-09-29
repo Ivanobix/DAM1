@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=EntradaConComentarios
+comment1.params=autor
+comment1.target=EntradaConComentarios(java.lang.String)
+comment2.params=texto
+comment2.target=void\ addComentario(java.lang.String)
+comment2.text=\r\n\ Anade\ un\ comentario\ a\ a\ la\ entrada.\r\n\ @param\ text\ El\ comentario\ a\ anadir.\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getComentarios()
+comment3.text=\r\n\ Devuelve\ los\ comentarios\ de\ la\ publicacion.\r\n\ @return\ Devuelve\ los\ comentarios\ de\ la\ publicacion.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

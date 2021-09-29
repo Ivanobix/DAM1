@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Alumno
+comment1.params=nombreCompleto\ numeroMatriculaAlumno\ edadAlumno
+comment1.target=Alumno(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Crea\ un\ alumno\ nuevo\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ Devuelve\ el\ nombre\ completo\ del\ alumno\r\n
+comment3.params=nuevoNombre
+comment3.target=void\ cambiarnombre(java.lang.String)
+comment3.text=\r\n\ Cambia\ el\ nombre\ del\ alumno\r\n
+comment4.params=
+comment4.target=void\ imprimeDetalles()
+comment4.text=\r\n\ Imprime\ por\ pantalla\ los\ detalles\ del\ alumno\r\n
+comment5.params=
+comment5.target=java.lang.String\ getNombreUsuarioGithub()
+comment5.text=\r\n\ Devuelve\ el\ nombre\ de\ usuario\ que\ el\ alumno\ debe\ configurar\r\n\ en\ su\ cuenta\ de\ Github\ en\ formato\ de\ 7\ caracateres\r\n
+numComments=6

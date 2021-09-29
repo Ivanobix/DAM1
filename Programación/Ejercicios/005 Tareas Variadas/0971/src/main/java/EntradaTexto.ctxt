@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EntradaTexto
+comment1.params=autor\ texto
+comment1.target=EntradaTexto(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getMensaje()
+comment3.params=
+comment3.target=void\ mostrarAutorYMensaje()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

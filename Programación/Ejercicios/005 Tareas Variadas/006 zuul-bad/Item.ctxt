@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Class\ Item\ -\ a\ item\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Item"\ An\ item\ represents\ an\ object\ that\ can\ be\ used\ by\ the\ player\ and\ that\ has\ its\ own\ characteristics.\r\n\ The\ items\ are\ in\ certain\ rooms.\r\n\ \r\n\ @author\ \ Iv\u00E1n\ Garc\u00EDa\ Prieto\r\n\ @version\ 2020.04.22\r\n
+comment1.params=itemDescription\ itemWeight\ itemId\ equippable
+comment1.target=Item(java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment2.params=description
+comment2.target=void\ setItemDescription(java.lang.String)
+comment3.params=weight
+comment3.target=void\ setItemWeight(int)
+comment4.params=
+comment4.target=java.lang.String\ getItemDescription()
+comment5.params=
+comment5.target=int\ getItemWeight()
+comment6.params=
+comment6.target=java.lang.String\ getId()
+comment7.params=
+comment7.target=boolean\ getEquippable()
+numComments=8

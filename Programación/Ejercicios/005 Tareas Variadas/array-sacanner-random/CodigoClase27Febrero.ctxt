@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CodigoClase27Febrero
+comment1.params=
+comment1.target=int\ metodo01()
+comment2.params=
+comment2.target=void\ metodo02()
+comment3.params=
+comment3.target=void\ metodo03()
+comment4.params=cantidadDePares
+comment4.target=int[]\ obtenerNumerosPares(int)
+comment4.text=\ \r\n\ Metodo\ que\ crea\ un\ array\ con\ el\ numero\ de\ elementos\ indicado\r\n\ y\ lo\ llena\ de\ los\ numeros\ pares\ empezando\ por\ 2.\ El\ metodo\r\n\ debe\ devolver\ el\ array\ creado.\ En\ caso\ de\ que\ cantidad\ de\ pares\r\n\ sea\ negativo\ o\ cero\ el\ metodo\ devuelve\ null.\r\n
+comment5.params=cantidadNumeros
+comment5.target=int[]\ obtenerSucesionFibonacci(int)
+comment5.text=\r\n\ Metodo\ que\ crea\ un\ array\ con\ el\ numero\ de\ elementos\ especificado\ como\r\n\ parametro\ y\ lo\ llena\ con\ la\ sucesi\u00F3n\ de\ Fibonacci\ desde\ el\ 0\ in.\ El\ metodo\r\n\ debe\ devolver\ el\ array\ creado.\ Si\ cantidad\ de\ numeros\ es\ negativo\ o\ cero\ el\r\n\ metodo\ devuelve\ un\ array\ vacio.\r\n
+comment6.params=inicio\ fin
+comment6.target=void\ adivinarNumero(int,\ int)
+comment6.text=\r\n\ El\ metodo\ pide\ al\ usuario\ su\ nombre.\ Luego\ pide\ al\ usuario\ el\ numero\ de\r\n\ inicio\ y\ el\ de\ fin\ y\ elige\ un\ numero\ aleatorio\ entre\ ambos\ (ambos\ incluidos).\r\n\ A\ continuaci\u00F3n\ permite\ al\ usuario\ adivinar\ el\ numero\ en\ sucesivos\ intentos.\r\n\ Cuando\ el\ usuario\ adivina\ el\ numero\ el\ programa\ le\ da\ una\ puntuacion\ en\r\n\ funcion\ del\ tiempo\ (version\ dificil)\ o\ del\ numero\ de\ intentos\ (version\r\n\ facil).\ Para\ obtener\ el\ numero\ aleatorio\ es\ obligatorio\ usar\ la\ clase\ Random\r\n
+comment7.params=numeros
+comment7.target=int\ obtenerRepeticionesNumeroMasRepetido(java.lang.String)
+comment7.text=\r\n\ Metodo\ que\ a\ partir\ de\ una\ cadena\ de\ caracteres\ del\ tipo\ \r\n\ "7,\ 5,\ 2,\ 1,\ 3,\ 2,\ 7,\ 1,\ 7"\ crea\ internamente\ un\ array\ con\ tantos\ \r\n\ elementos\ como\ numeros\ contenga\ dicha\ cadena\ y\ devuelve\ cuantas\ veces\ esta\ \r\n\ repetido\ el\ n\u00FAmero\ que\ mas\ veces\ esta\ repetido.\ Los\ numeros\ solo\ son\ del\ 0\ al\ 9.\r\n\ Se\ asume\ que\ uno\ al\ menos\ esta\ repetido.\ Si\ un\ numero\ aparece\ dos\ veces,\ el\ \r\n\ metodo\ debe\ devolver\ 2,\ si\ esta\ tres\ veces,\ el\ metodo\ debe\ devolver\ 3,\ etc.\r\n
+comment8.params=nombreArchivo
+comment8.target=void\ leeArchivo(java.lang.String)
+comment8.text=\r\n\ Metodo\ que\ lee\ el\ archivo\ especificado\ como\ par\u00E1metro,\ que\ contiene\ un\ n\u00FAmero\r\n\ en\ cada\ l\u00EDnea,\ y\ muestra\ dichos\ numeros\ por\ pantalla,\ uno\ por\ l\u00EDnea\r\n
+comment9.params=numeros\ nombreArchivo
+comment9.target=void\ escribeAArchivo(int[],\ java.lang.String)
+comment9.text=\r\n\ M\u00E9todo\ que\ escribe\ los\ numeros\ contenidos\ en\ un\ array\ en\ un\ archivo\ de\ texto,\ uno\r\n\ en\ cada\ l\u00EDnea\r\n
+numComments=10

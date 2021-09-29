@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=vida\ edad\ clase
+comment1.target=Personaje(int,\ int,\ TipoPersonaje)
+comment2.params=
+comment2.target=int\ getVida()
+comment3.params=
+comment3.target=int\ getEdad()
+comment4.params=
+comment4.target=java.lang.String\ getClase()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

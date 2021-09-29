@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Muro
+comment1.params=
+comment1.target=Muro()
+comment2.params=entradaTexto
+comment2.target=void\ addEntradaTexto(EntradaTexto)
+comment3.params=entradaFoto
+comment3.target=void\ addEntradaFoto(EntradaFoto)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

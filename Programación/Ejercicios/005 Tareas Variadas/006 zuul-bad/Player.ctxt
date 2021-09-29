@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Class\ Player\ -\ a\ player\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\ \r\n\ @author\ \ Iv\u00E1n\ Garc\u00EDa\ Prieto\r\n\ @version\ 2020.04.27\r\n
+comment1.params=currentRoom\ pesoMaximo
+comment1.target=Player(Room,\ int)
+comment10.params=command
+comment10.target=void\ drinkPotion(Command)
+comment2.params=command
+comment2.target=void\ goRoom(Command)
+comment2.text=\ \r\n\ Try\ to\ go\ in\ one\ direction.\ If\ there\ is\ an\ exit,\ enter\r\n\ the\ new\ room,\ otherwise\ print\ an\ error\ message.\r\n
+comment3.params=
+comment3.target=void\ look()
+comment4.params=
+comment4.target=void\ eat()
+comment5.params=
+comment5.target=void\ back()
+comment6.params=
+comment6.target=Room\ getCurrentRoom()
+comment7.params=command
+comment7.target=void\ take(Command)
+comment8.params=
+comment8.target=void\ items()
+comment9.params=command
+comment9.target=void\ drop(Command)
+numComments=11

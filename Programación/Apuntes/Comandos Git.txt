@@ -1,0 +1,22 @@
+git init 					#Para crear una carpeta .git
+git add . 					#Para seleccionar todos los archivos
+git commit -m "xxx" 				#Para hacer un commit y ponerle el cambio realizado
+
+git status					#Para ver quiénes salen en la foto
+git log --onefile				#Para ver los commits resumidos
+git remote -v 					#Para ver los repositorios remotos que tengo asociados
+git remote add (Nombre del repositorio)  http://www.xxx.com 	#Para añadir un repositorio online
+git push  (Nombre del repositorio) master 	#Para enviar un commit al repositorio online
+git remote rename (Nombre del repositorio) xxx	#Para cambiar el nombre del repositorio online
+
+--------------------------------------------------
+
+git branch					#Para ver las ramas
+git branch (Nombre de la rama)				#Para crear una rama nueva
+git branch -a					#Para ver las ramas remotas
+git checkout nombrerama				#Para cambiar de rama
+git merge --no-ff nombrerama			#Para fusionar dos ramas
+
+--------------------------------------------------
+
+git commit -m "(Descripción) close #(numero del issue)"	#Cerrar un issue

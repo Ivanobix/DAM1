@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Actividad2901
+comment1.params=numero\ valorTope
+comment1.target=int\ sumaDeMultiplos(int,\ int)
+numComments=2

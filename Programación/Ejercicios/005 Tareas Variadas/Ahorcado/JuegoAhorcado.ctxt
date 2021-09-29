@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=JuegoAhorcado
+comment0.text=\r\nEl\ metodo\ jugar\ elige\ una\ palabra\ aleatoria\ de\ una\ lista\ de\ posibles\r\npalabras\ y\ permite\ al\ usuario\ o\ bien\ ir\ indicando\ letras\ o\ bien\r\nintentar\ averiguar\ la\ palabra.\ Si\ la\ letra\ indicada\ por\ el\ usuario\ no\ esta\r\nen\ la\ palabra\ el\ jugador\ va\ perdiendo\ vida.\ Si\ si\ esta,\ se\ muestra\ la\ palabra\r\ncon\ las\ letras\ que\ el\ usuario\ haya\ indicado.\ Si\ la\ palabra\ que\ el\ usuario\r\nintroduce\ es\ incorrecta\ pierde\ uno\ de\ vida\ y\ sigue\ el\ juego.\r\nSi\ el\ jugador\ pierde\ toda\ su\ vida\ se\ acaba\ el\ juego.\ Si\ acierta\ la\ palabra\r\nantes\ de\ que\ se\ le\ acabe\ la\ vida\ se\ le\ concede\ un\ bonus\ de\ vida\ y\r\nse\ vuelve\ a\ empezar\ con\ una\ nueva\ palabra.\ Eres\ libre\ de\ crear\ m\u00E1s\ clases\r\nsi\ as\u00ED\ lo\ deseas.Se\ pide\ tambi\u00E9n\ crear\ una\ clase\ de\ test\ que\ inicie\ el\ juego.\r\n
+comment1.params=modoDios
+comment1.target=void\ jugar(boolean)
+comment2.params=
+comment2.target=void\ generarPalabraVacia()
+numComments=3

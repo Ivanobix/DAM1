@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Actividad2300
+comment1.params=inicio\ fin
+comment1.target=void\ adivinarNumero(int,\ int)
+comment1.text=\r\n\ El\ metodo\ pide\ al\ usuario\ su\ nombre.\ Luego\ pide\ al\ usuario\ el\ numero\ de\r\n\ inicio\ y\ el\ de\ fin\ y\ elige\ un\ numero\ aleatorio\ entre\ ambos\ (ambos\ incluidos).\r\n\ A\ continuaci\u00F3n\ permite\ al\ usuario\ adivinar\ el\ numero\ en\ sucesivos\ intentos.\r\n\ Cuando\ el\ usuario\ adivina\ el\ numero\ el\ programa\ le\ da\ una\ puntuacion\ en\r\n\ funcion\ del\ tiempo\ (version\ dificil)\ o\ del\ numero\ de\ intentos\ (version\r\n\ facil).\ Para\ obtener\ el\ numero\ aleatorio\ es\ obligatorio\ usar\ la\ clase\ Random\r\n
+numComments=2

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=EntradaFoto
+comment0.text=\r\n\ Una\ entrada\ con\ imagenes\r\n\r\n\ Una\ entrada\ es\ un\ contenido\ que\ el\ usuario\ comparte\ en\ su\ muro\ con\ la\ comunidad.\r\n\ Las\ entradas\ con\ imagenes\ se\ crean\ a\ partir\ de\ un\ autor,\ un\ titulo\r\n\ para\ la\ imagen\ y\ la\ url\ de\ la\ imagen.\r\n\r\n\ \ @author\ DAM\r\n\ \ @version\ 1.0\r\n
+comment1.params=autor\ texto\ titulo
+comment1.target=EntradaFoto(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ -\ Construye\ entradas\ a\ partir\ de\ un\ autor,\ el\ titulo\ de\ la\ imagen\ y\ su\ URL.\r\n\ Las\ entradas\ se\ crean\ sin\ ningun\ '\ me\ gusta'.\r\n\ La\ fecha\ de\ publicacion\ coincide\ con\ el\ momento\ en\ el\ que\ se\ crea\ la\ entrada.\r\n\ @param\ autor\ Autor\ de\ la\ entrada.\r\n\ @param\ titulo\ Titulo\ de\ la\ imagen.\r\n\ @param\ url\ URL\ de\ la\ imagen.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getUrlImagen()
+comment2.text=\r\n\ Devuelve\ el\ URL\ de\ la\ imagen.\r\n\ @return\ Devuelve\ el\ URL\ de\ la\ imagen.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTituloImagen()
+comment3.text=\r\n\ Devuelve\ el\ titulo\ de\ la\ imagen.\r\n\ @return\ Devuelve\ el\ titulo\ de\ la\ imagen.\r\n
+comment4.params=
+comment4.target=void\ mostrarDetallesPorPantalla()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ de\ la\ entrada.\r\n\ @return\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ de\ la\ entrada.\r\n
+numComments=6

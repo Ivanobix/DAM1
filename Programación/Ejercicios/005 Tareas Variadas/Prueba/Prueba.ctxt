@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Prueba
+comment1.params=
+comment1.target=void\ mostrarNumeros()
+comment2.params=a\ b
+comment2.target=void\ muestraNumerosEntre(int,\ int)
+comment3.params=a\ b
+comment3.target=void\ muestraNumerosParesEntre(int,\ int)
+comment4.params=tamano\ numeroNaves
+comment4.target=void\ muestraNavesEspaciales(int,\ int)
+comment5.params=base
+comment5.target=void\ muestraPiramide(int)
+comment5.text=\r\n\ M\u00E9todo\ que\ muestra\ una\ pir\u00E1mide\ de\ base\ "base".\ Se\ asume\ que\ base\ siempre\ es\r\n\ impar\ y\ mayor\ que\ 0.\ La\ piramide\ esta\ formado\ por\ asteriscos.\r\n
+comment6.params=
+comment6.target=void\ conversionesStringAInt()
+comment7.params=
+comment7.target=void\ conversionesIntAString()
+comment8.params=
+comment8.target=void\ pruebaHashSet()
+numComments=9

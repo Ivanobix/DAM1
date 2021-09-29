@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Entrada
+comment1.params=autor
+comment1.target=Entrada(java.lang.String)
+comment2.params=
+comment2.target=void\ meGusta()
+comment2.text=\r\n\ Anade\ un\ 'me\ gusta'\ a\ la\ entrada.\r\n
+comment3.params=
+comment3.target=java.time.LocalDateTime\ getMomentoPublicacion()
+comment3.text=\r\n\ Devuelve\ la\ fecha\ de\ publicacion.\r\n\ @return\ Devuelve\ la\ fecha\ de\ publicacion.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTiempoPasadoDesdeLaPublicacion()
+comment4.text=\r\n\ Devuelve\ el\ tiempo\ pasado\ desde\ la\ publicacion.\r\n\ @return\ Devuelve\ el\ tiempo\ pasado\ desde\ la\ publicacion.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getUsuario()
+comment5.text=\r\n\ Devuelve\ el\ usuario\ que\ ha\ creado\ la\ publicacion.\r\n\ @return\ Devuelve\ el\ usuario\ que\ ha\ creado\ la\ publicacion.\r\n
+comment6.params=
+comment6.target=int\ getMeGusta()
+comment6.text=\r\n\ Devuelve\ la\ cantidad\ de\ "me\ gusta"\ de\ la\ publicacion.\r\n\ @return\ Devuelve\ la\ cantidad\ de\ "me\ gusta"\ de\ la\ publicacion.\r\n
+comment7.params=
+comment7.target=void\ mostrarDetallesPorPantalla()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ de\ la\ entrada.\r\n\ @return\ Devuelve\ una\ cadena\ con\ toda\ la\ informacion\ de\ la\ entrada.\r\n
+numComments=9

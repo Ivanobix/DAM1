@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=MailClient
+comment0.text=\r\n\ A\ class\ to\ model\ a\ simple\ email\ client.\ The\ client\ is\ run\ by\ a\r\n\ particular\ user,\ and\ sends\ and\ retrieves\ mail\ via\ a\ particular\ server.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00C3\u00B6lling\r\n\ @version\ 2011.07.31\r\n
+comment1.params=server\ user
+comment1.target=MailClient(MailServer,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ mail\ client\ run\ by\ user\ and\ attached\ to\ the\ given\ server.\r\n
+comment2.params=
+comment2.target=MailItem\ getNextMailItem()
+comment2.text=\r\n\ Return\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user.\r\n
+comment3.params=
+comment3.target=void\ printNextMailItem()
+comment3.text=\r\n\ Print\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user\ to\ the\ text\ \r\n\ terminal.\r\n
+comment4.params=to\ subject\ message
+comment4.target=void\ sendMailItem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Send\ the\ given\ message\ to\ the\ given\ recipient\ via\r\n\ the\ attached\ mail\ server.\r\n\ @param\ to\ The\ intended\ recipient.\r\n\ @param\ message\ The\ text\ of\ the\ message\ to\ be\ sent.\r\n
+comment5.params=
+comment5.target=int\ getNumberOfMessageInServer()
+comment5.text=\r\n\ Metodo\ que\ no\ requiere\ par\u00E1metros\ y\ devuelve\ el\ n\u00FAmero\ de\ correos\ electr\u00F3nicos\r\n\ que\ el\ usuario\ de\ ese\ cliente\ tiene\ pendientes\ de\ descarga\ en\ el\ servidor.\r\n
+comment6.params=
+comment6.target=MailItem\ getLastReceivedMail()
+comment6.text=\r\n\ Return\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user.\r\n
+comment7.params=
+comment7.target=void\ receiveAndAutorespond()
+comment7.text=\r\n\ Funcionalidad\ 4\r\n
+comment8.params=
+comment8.target=java.lang.String\ getStatus()
+numComments=9

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ClaseDam
+comment1.params=maximoNumeroALumnos
+comment1.target=ClaseDam(int)
+comment1.text=\r\n\ Crea\ una\ clase\r\n
+comment2.params=nuevoAlumno
+comment2.target=void\ matricularAlumno(Alumno)
+comment2.text=\r\n\ Agrega\ un\ estudiante\ a\ la\ clase\r\n
+comment3.params=
+comment3.target=int\ getNumeroDeAlumnos()
+comment3.text=\r\n\ Devuelve\ el\ numero\ de\ alumnos\ matriculados\r\n
+comment4.params=aulaClase
+comment4.target=void\ setAula(java.lang.String)
+comment4.text=\r\n\ Fija\ el\ aula\ donde\ se\ da\ la\ clase\r\n
+comment5.params=centroClase
+comment5.target=void\ setCentro(java.lang.String)
+comment5.text=\r\n\ Fija\ el\ centro\ (el\ instituto)\ al\ que\ pertenece\ la\ clase\r\n
+comment6.params=nombreTutor
+comment6.target=void\ setTutor(java.lang.String)
+comment6.text=\r\n\ Fija\ el\ tutor\ de\ la\ clase\r\n
+comment7.params=
+comment7.target=void\ imprimeDetalles()
+comment7.text=\r\n\ Imprime\ por\ pantalla\ los\ detalles\ de\ la\ clase\r\n
+numComments=8

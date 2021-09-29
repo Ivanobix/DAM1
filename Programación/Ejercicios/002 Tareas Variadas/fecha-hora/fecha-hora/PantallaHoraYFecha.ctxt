@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PantallaHoraYFecha
+comment0.text=\r\n\ PantallaHoraYFecha\ es\ una\ clase\ que\ representa\ la\ fecha\r\n\ y\ las\ horas\ en\ un\ solo\ mensaje.\r\n
+comment1.params=
+comment1.target=PantallaHoraYFecha()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ PantallaHoraYFecha\ con\ valores\ predefinidos\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFechaYHora()
+comment2.text=\r\n\ Muestra\ por\ pantalla\ el\ valor\ de\ la\ fecha\ y\ la\ hora\r\n
+comment3.params=
+comment3.target=void\ avanzarMinuto()
+comment3.text=\r\n\ Permite\ avanzar\ un\ minuto\ la\ fecha\ y\ hora\r\n
+comment4.params=hora\ minuto\ dia\ mes\ ano
+comment4.target=void\ fijarFechaYHora(int,\ int,\ int,\ int,\ int)
+comment4.text=\r\n\ Permite\ fijar\ la\ fecha\ y\ la\ hora\ mediante\ par\u00E1metros\r\n
+numComments=5
