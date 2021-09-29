@@ -1,0 +1,96 @@
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="COmpra de Entradas Auditorio Ciudad de León"/>
+		<meta name="keywords" content="auditorio;ciudad;leon;musica;"/>
+		<meta name="author" content="Iván García Prieto"/>
+		<title>Compra de Entradas</title>
+	</head>
+	<body>
+		<img src= "Media/Exterior.jpg" width="15%">
+		<h1>Auditorio Ciudad de León </h1>
+		<h2><i><ins>El centro de eventos</ins></i></h2>
+		
+		<hr/> 
+		
+		<h2 id="CompraEntradas "><ins>Compra de Entradas </ins></h2>
+		<form>
+			<fieldset name="Datos" id="Datos">
+				<legend>Comprador: registro usuario </legend>
+					<fieldset name="Usuario" id="Usuario">
+						<legend>Datos Usuario </legend>
+							Nombre <input type="text" name="nombre" placeholder="Introduzca usuario" size="40">
+							Contraseña <input type="password" name="contrasena" size="40"><br/>	
+					</fieldset>
+					
+					<fieldset name="Personales" id="Personales">
+						<legend>Datos Personales </legend>
+							NIF Nº: <input type="number" name="nifnum" size="9" max="99999999">
+							NIF Letra: <input type="text" name="niflet" size="1" maxlength="1"><br/>
+							Nombre: <input type="text" name="nombre" placeholder="Introduzca nombre" size="40">
+							Apellidos: <input type="text" name="apellidos" placeholder="Introduzca apellidos" size="40"><br/>
+							Fecha de nacimiento: <input type="date" name="fecha" min="1900-01-01" max="2019-12-31"><br/>
+							eMail: <input type="email" name="correo" placeholder="...@gmail.com"  size="40"><br/>
+							Color favorito: <input type="color" name="color"><br/>
+							Fotografía: <input type="file" name="file"><br/>
+					</fieldset>		
+			</fieldset>
+			
+			<progress value="1" max="3"></progress>
+			
+			<fieldset name="Entradas" id="Entradas">
+				<legend>Compra de Entradas y Abonos Temporada</legend>
+					<fieldset name="Seleccion" id="Seleccion">
+						<legend>Selección Entradas</legend>
+							Nº Entradas <input type="number" name="nentradas" max="999"><br/><br/>
+							Tipo Entrada/Abono: <br/>
+							<select name="entradabono" id="entradabono" size="6" multiple>
+								<optgroup label="Entradas">
+									<option value="manana">Sesion Mañana</option>
+									<option value="tarde">Sesion Tarde</option>
+								</optgroup>
+							
+								<optgroup label="Abonos">
+									<option value="media">Media Temporada</option>
+									<option value="entera">Temporada</option>
+								</optgroup>
+							</select><br/><br/>
+							
+							<fieldset name="Butacas" id="Butacas">
+								<legend>Butacas</legend>
+									Numeradas <input type="radio" name="butacanum" checked="checked"><br/><br/>
+									Sin numerar <input type="radio" name="butacanum" ><br/>
+							</fieldset>
+							
+							<fieldset name="Tipo" id="tipo">
+								<legend>Butacas</legend>
+									Patio de Butacas: <input type="checkbox" name="butacatipo" checked="checked"><br/><br/>
+									Palco: <input type="checkbox" name="butacatipo" ><br/>
+							</fieldset>	
+							
+							<fieldset name="Tipo" id="tipo">
+								<legend>Forma de Pago: </legend>
+									Medio de pago: <br/>
+									<select name="pagos" id="pagos" size="2">
+										<option value="transf" > Transferencia </option>
+										<option value="conta" > Contado </option>
+									</select><br/><br/>
+									
+									Tarjeta:<br/>
+									<input type="text" name="tarjeta" list="tarjeta"/>
+									<datalist id="tarjeta">
+										<option value="Visa" label="Visa"/>
+										<option value="Mastercard" label="Mastercard"/>
+									</datalist> 
+							</fieldset>		
+					</fieldset>		
+			</fieldset>
+			
+			<progress value="2" max="3"></progress>
+
+		</form>	
+	</body>
+	<footer>
+		
+	</footer>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Gemas y piedras preciosas"/>
+		<meta name="keywords" content="piedras;preciosas;gemas;cuarzo"/>
+		<meta name="author" content="Iván García Prieto"/>
+		<title> Formulario </title>
+	</head>
+	<body>
+		<form action="mailto:ivan.garpri@gmail.com" method="post" enctype="text/plain">
+		
+			<fieldset name="NombreYCorreo" form="Form01" >
+				<input type="text" name="nombre" placeholder="Nombre:" size="40"><br>
+				<input type="email" name="correo" placeholder="Correo:"  size="40"><br>
+				<input type="password" name="contraseña" placeholder="Contraseña:"  size="40"><br>
+				<input type="number" name="compras" placeholder="Compras Hechas" size="40" ><br>
+				Color Favorito: <br>
+				<input type="color" name="color" size="40" ><br>
+				<input type="file" name="file" size="40"><br>
+				Valora la calidad de nuestros productos: <br>
+				<input type="range" name="calidad" size="40" max="100" min="0" step="1" ><br>
+
+				
+			</fieldset>
+			
+			<fieldset name="MarcaOpcion" form="Form01" >
+				<table width="100%" border="0" cellspacing="0" cellpadding="10" align="center" >
+					<tr>
+						<td>¿Qué te ha parecido nuestra web?<br>
+							<input type="radio" name="Fantástica"> Fantástica.<br>
+							<input type="radio" name="Buena"> Buena.<br>
+							<input type="radio" name="Mediocre"> Mediocre.<br>
+							<input type="radio" name="Mala"> Mala.
+						</td>
+						<td>¿Qué es lo que más te ha gustado de nuestra web?<br>
+							<input type="checkbox" name="Precios"> Precios.<br>
+							<input type="checkbox" name="Variedad"> Variedad.<br>
+							<input type="checkbox" name="Fiabilidad"> Fiabilidad.<br>
+							<input type="checkbox" name="Facilidad de pago"> Facilidad de pago.
+						</td>
+					</tr>
+
+				</table>
+			</fieldset>
+			
+			<fieldset name="Opinion" form="Form01" >
+				Opinión sobre nuestra pégina web:<br>
+				<textarea cols="40" rows="5" name="opinion"> </textarea> <br><br><br>
+			</fieldset>
+			
+			<fieldset name="FechaSel" form="Form01" >
+				<legend> Selección de fecha </legend>
+				<input type="date" name="fecha" min="2000-01-01" max="2019-12-31" />
+			</fieldset>
+			
+			<fieldset name="Desplegable" form="Form01" >
+				<legend> Selección de País </legend>
+				<select name="Pais">
+						<option value="ES" > España </option>
+						<option value="PO" > Portugal </option>
+						<option value="MX" > México </option>
+						<option value="FR" > Francia </option>
+				</select><br>
+			</fieldset>	
+			
+			<fieldset name="Software" form="Form01" >
+				<select name="Sistema" id="Sistema" size="7" multiple>
+				
+					<optgroup label="Sistema Operativo">
+						<option value="windows">Windows</option>
+						<option value="linux">Linux</option>
+					</optgroup>
+					
+					<optgroup label="Sistema Operativo">
+						<option value="mozilla">Mozilla</option>
+						<option value="chrome">Chrome</option>
+						<option value="opera">Opera</option>
+					</optgroup>	
+				</select>
+			</fieldset>	
+			
+			<input type="submit" value="Enviar"/>
+			<progress value="50" max="100">50%</progress>
+			<input type="reset" value="Borrar"/> <br/>
+			<input type="search" name="Google" size="45" maxlength="255" value="" />
+		</form>
+	</body>
+</html>

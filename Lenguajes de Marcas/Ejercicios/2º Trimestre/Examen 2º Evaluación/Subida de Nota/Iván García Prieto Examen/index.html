@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" 
+						content="Almacenes León." />
+		<meta name="keywords" content="León, Ropa Trabajo, Ropa, Trabajo, EPI" />
+		<title> Almacenes León, SL </title>
+		<link rel="stylesheet" type="text/css" href="Estilos/Estilo1.css">
+		<script type="text/javascript" src="Scripts\scripts.js"></script>
+	</head>
+	
+	<body onload="avance_slide()">
+		
+		<header>
+			<img id = "Logo" src="Imagenes/trabajadores01.png"/>
+			<img id = "Banner" src="Imagenes/Cabecera01.png"/>
+			<h1 id = "TituloHeader"> Almacenes León </h1>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">EMPRESA</a></li>
+					<li><a href="index.html">CATALOGO</a></li>
+					<li><a href="index.html">TIENDA</a></li>
+					<li><a href="mailto:info@almacenesleon.es">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<aside>
+			<img src="Imagenes/contacto.png"/>
+			<div>	
+				Si tiene alguna pregunta sobre los servicios que ofrecemos, 
+				use el siguiente formulario. 
+				<br/>
+				Tratamos de responder a todas las consultas y comentarios en 
+				24 horas.
+			</div>
+			
+			<form name="Formulario" >
+				<p>
+					<label for="txtUsuario"> Nombre: </label>
+					<input id="txtUsuario" type="text" 
+							placeholder="Introduzca usuario" autofocus 
+							maxlength="15" />
+				</p>
+				<p>
+					<label for="pssPin"> PIN: </label>
+					<input id="pssPin" type="password"  
+							min="0" max="9999" size="4" 
+							pattern="[0-9]{4}" autofocus />
+				</p>
+				<p>
+					<label for="txtComentarios"> Consulta:</legend>		
+					<textarea id="txtComentarios" rows="5" ></textarea>
+				</p>
+				<input type="submit" class="BotonesForm"/>
+				<input type="reset" class="BotonesForm"/>
+			</form>
+		</aside>
+	<div id= "Contenido">				
+		<a id="slide_enlaces" target="_blank"><img id="slide"/></a>
+
+		<section>
+			<h3> Ofrecemos soluciones integrales a las empresas.</h3> 
+			<p id= "subtitulo">	Con años de experiencia nos aseguramos que 
+				obtengan los mejores RESULTADOS.
+			</p>
+			
+			<article class = "fotoamarilla">
+				<img src="Imagenes/icRopaTrabajo.png"/>
+				<br/>
+				<h2> Ropa de Trabajo </h2>
+			</article>
+			
+			<article class = "fotoamarilla">
+				<img src="Imagenes/GuantesSeguridad.png"/>
+				<br/>
+				<h2> Guantes de Seguridad </h2>
+			</article>
+			
+			<article class = "fotoamarilla">
+				<img src="Imagenes/icCalzadoSeguridad.png"/>
+				<br/>
+				<h2> Calzado de Seguridad </h2>
+			</article>
+			
+			<article class = "fotoamarilla">
+				<img src="Imagenes/icProductosVarios.png"/>
+				<br/>
+				<h2> Otros Artículos </h2>
+			</article>
+		</section>
+
+		<section id = "fotoslados">
+			<article class = "fotoizq">
+				<img src="Imagenes/bannerRopaTrabajo.png"/>
+			</article>
+			
+			<article class = "fotoder">
+				<img src="Imagenes/bannerGuantesSeguridad.png"/>
+			</article>
+			
+			<article class = "fotoizq">
+				<img src="Imagenes/bannerCalzadoSeguridad.png"/>
+			</article>
+		</section>
+		
+		<section id = "noticias">
+			<h1> NOTICIAS </h1>
+			<article class = "articulo">	
+				<p>	En todo trabajo es indispensable disminuir o eliminar la 
+					tasa de accidentes con medidas de protección como la 
+					utilización de la vestimenta de trabajo. 
+					Existen varias ventajas a aprovechar que no se pueden obviar.
+					El primer motivo para usar uniformes personalizados es 
+					brindar seguridad e higiene en todo momento.
+					<br/><br/>
+					Leer más ...
+				</p>
+			</article>
+			
+			<article class = "articulo">
+				<p>	Durante la jornada, las personas pueden estar expuestas 
+					a peligros por manipular carga pesada, objetos y máquinas 
+					cortantes, también es posible conseguir lesiones, fracturas, 
+					quemaduras, etc. Por otra parte, los trabajadores pueden 
+					permanecer en contacto con entornos sucios o con el público, 
+					razones de peso para considerar la ropa laboral porque 
+					ofrece visibilidad y protección.
+					<br/><br/>
+					Leer más ...
+				</p>
+			</article>
+			
+			<article class = "articulo">
+				<p>	Esta clase de vestuario aporta y refuerza la identidad 
+					empresarial. Poco a poco, cada cliente va reconociendo 
+					el logotipo y asociándolo a los valores de la marca. 
+					Desde otra perspectiva, motiva a los empleados a 
+					compenetrarse con la compañía y a generar sentido de 
+					pertenencia.
+					<br/><br/>
+					Leer más ...
+				</p>
+			</article>
+			
+			<article class = "articulo">
+				<p> Es necesario que el atuendo en horas laborales refleje 
+					el profesionalismo de la empresa, así como también ayude 
+					a cada cliente a identificar al personal sin problemas. 
+					Prescindir de equipamientos protectores puede derivar en 
+					asuntos legales complicados en caso de accidentes, por eso, 
+					es obligatorio contar con estas prendas.
+					<br/><br/>
+					Leer más ...
+				</p>	
+			</article>
+			
+			<article class = "articulo">
+				<p> Recomendaciones al escoger prendas de trabajo.
+					<br/>
+					Identificar las necesidades del vestuario según el sector. 
+					Por supuesto, no es igual utilizar atuendos en el ámbito 
+					de salud que en el industrial, porque la normativa y los 
+					riesgos son distintos. Basándote en ese aspecto podrás 
+					definir luego: colores, estilos y presupuesto en general.
+					Decide, con antelación, qué logotipos colocarás en las 
+					prendas, dónde lo pondrás, qué técnica será mejor para 
+					implantar el logo… 
+					Es vital notificar a los empleados sobre la importancia de 
+					vestir con ropa laboral, además, aprovecha sus comentarios 
+					para tener ideas del diseño. 
+					<br/><br/>
+					Leer más ...
+				</p>
+			</article>	
+		</section>
+		
+		<section id = "dondeestamos">
+			<h1> DÓNDE ESTAMOS </h1>
+			
+			<img src="Imagenes/localizacion.png"/>
+			
+			<table>
+				<tr>
+					<th colspan="2"> Horario de Atención al Público </th>
+				</tr>
+				<tr>
+					<td> Tienda: Lunes a Viernes </td>
+					<td> 08:35 a 14:25 h. </td>
+				</tr>
+				<tr>
+					<td colspan="2"> Canal online 24 h. </td>
+				</tr>
+			</table>
+		</section>	
+	</div>
+		<footer>
+			<img src="Imagenes/fondopie.png"/>
+		</footer>
+			
+	</body>	
+</html>

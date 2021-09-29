@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Comunidades Autónomas en España"/>
+		<meta name="keywords" content="Comunidades;Autónomas;España;Europa"/>
+		<meta name="author" content="Iván García Prieto"/>
+		<title>Comunidades Autónomas</title>
+		<link rel="stylesheet" type="text/css" href="Estilos/Estilo1.css">
+	</head>
+	
+	<body>
+		<header>
+			<img src= "Media\Cabecera.jpg" alt="Cabecera Castilla y León" style="width:100%; border-radius:15px"/>
+			<ul class= "Menu">
+				<li class= "UnaLinea"><a class = "aMenu" href="https://es.wikipedia.org/wiki/Comunidad_aut%C3%B3noma">Wikipedia</a></li>
+				<li class= "UnaLinea"><a class = "aMenu" href="https://www.jcyl.es/">jcyl</a></li>
+			</ul>
+		</header>
+	
+		<form>
+			<fieldset name="identificacion" id="identificacion">
+				<legend>Identificación</legend>				
+				<label for="Name">Nombre</label><input type="text" name="nombre" placeholder="Nombre" size="40" id="Name">
+				<label for="Apellidos">Apellidos</label><input type="text" name="apellidos" placeholder="Apellidos" size="40" id="Apellidos"><br/>
+				<label for="NIF">NIF</label><input type="number" name="nifnum" placeholder="NIF" size="9" max="99999999" id="NIF">
+				<label for="Letra">Letra</label><input type="text" name="niflet" size="1" maxlength="1" id="Letra"><br/>
+				<label for="Fechanac">Fecha de nacimiento</label><input type="date" name="fecha" min="1900-01-01" max="2019-12-31" id="Fechanac"><br/>
+				<label for="Colorfav">Color favorito</label><input type="color" name="color" id="Colorfav"><br/>
+				<label for="Email">Email</label><input type="email" name="correo" placeholder="...@gmail.com"  size="40" id="Email"><br/>
+				<label for="Password">Password</label><input type="password" name="contrasena" placeholder="Contraseña"  size="40" id="Password"><br/>
+			</fieldset>
+			
+			<progress value="1" max="4"></progress>
+			
+			<fieldset name="estudios" id="estudios">
+			<legend>Estudios</legend>
+					<fieldset name="reglados" id="reglados">
+					<legend>Reglados</legend>
+						Oficiales
+						<select name="oficiales" id="oficiales" size="1">
+							<optgroup label="Educación Básica">
+								<option value="EGB">EGB</option>
+								<option value="Primaria">Primaria</option>
+							</optgroup>
+						
+							<optgroup label="Educación Media">
+								<option value="ESO">ESO</option>
+								<option value="Bachillerato">Bachillerato</option>
+								<option value="fpm">F.P.M</option>
+							</optgroup>
+							
+							<optgroup label="Educación Superior">
+								<option value="Universidad">Universidad</option>
+								<option value="fps">F.P.S</option>
+							</optgroup>	
+						</select><br/>
+						Idioma
+						<select name="Idioma" id="idioma">
+							<option value="ES" > Español </option>
+							<option value="PO" > Portugués </option>
+							<option value="EN" > Inglés </option>
+							<option value="FR" > Francés </option>
+						</select><br/>
+					</fieldset>
+					
+					<fieldset name="noreglados" id="noreglados">
+					<legend>No Reglados</legend>
+						Otros
+						<input type="text" name="otros" list="otros"/>
+						<datalist id="otros">
+							<option value="Artes" label="Artes"/>
+							<option value="Teatro" label="Teatro"/>
+							<option value="Dibujo" label="Dibujo"/>
+						</datalist> 
+					</fieldset><br/>
+			</fieldset>
+			
+			<progress value="2" max="4"></progress>
+			
+			<fieldset name="satisfaccion" id="satisfaccion">
+			<legend>Satisfacción</legend>
+				<fieldset name="satisfaccion" id="satisfaccion">
+				<legend>Estudios</legend>
+					Bajo <input type="radio" name="Estudios"><br/>
+					Medio <input type="radio" name="Estudios" checked="checked" ><br/>
+					Alto <input type="radio" name="Estudios"><br/>
+				</fieldset>
+				<fieldset name="satisfaccion" id="satisfaccion">
+				<legend>Otros</legend>
+					Poco <input type="checkbox" name="Precios"><br/>
+					Normal <input type="checkbox" name="Variedad"><br/>
+					Mucho <input type="checkbox" name="Fiabilidad"><br/>
+				</fieldset>
+				Global <input type="range" name="global" max="10" min="0" step="1" ><br/>
+			</fieldset>	
+			
+			<progress value="3" max="4"></progress>
+			
+			<fieldset name="comentarios" id="comentarios">
+			<legend>Comentarios</legend>
+				<textarea cols="40" rows="5" name="opinion"></textarea><br/>
+				<input type="file" name="file"><br/>
+			</fieldset>	
+			
+			<progress value="4" max="4"></progress><br/><br/>
+			
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Reset"/>
+			<input type="image" src="Media/Icono.png">
+		</form>
+	</body>
+</html>

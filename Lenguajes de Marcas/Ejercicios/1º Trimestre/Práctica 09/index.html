@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Identificación del cliente"/>
+		<meta name="keywords" content="cliente;identificacion;datos;formulario"/>
+		<meta name="author" content="Iván García Prieto"/>
+		<title> Registro </title>
+	</head>
+	<body>
+	
+		<header> 
+			<img src= "Media/Cabecera.jpg" width="100%" usemap="#Cabecera">
+			<map name="#Cabecera" id="Cabecera">
+				<area shape="rect" coords="320,0,600,250" alt="Identificacion"
+					href="#identificacion"/> 
+				<area shape="rect" coords="600,0,800,250" alt="Estudios"
+					href="#estudios"/>
+				<area shape="rect" coords="800,0,1020,250" alt="Satisfaccion"
+					href="#satisfaccion"/>
+				<area shape="rect" coords="1020,0,1300,250" alt="Comentarios"
+					href="#comentarios"/>
+			</map>
+		</header>
+		
+		<aside>
+			Instagram es una red social y aplicación. Su función es subir fotos, vídeos. Está disponible para dispositivos Android e iOS. Sus usuarios también pueden aplicar efectos fotográficos como filtros, marcos, similitudes térmicas, áreas subyacentes en las bases cóncavas, colores retro, y posteriormente compartir las fotografías en la misma red social o en otras como Facebook, Tumblr, Flickr y Twitter.
+		</aside>
+		
+		<article>
+			<form>
+				<nav>
+					<table border="3" width="300" height="200">
+						<tr align="center">
+							<th>Ivanobix SL</th>
+							<td rowspan="2"><img src="Media/Leon.jpg" width="100px" height="100px"></td>
+						</tr>
+						<tr align="center">
+							<td rowspan="2"><img src="Media/Logo.png" width="100px" height="100px"></td>
+							
+						</tr>
+						<tr align="center">
+							
+							<th>León</th>
+						</tr>
+					</table> <br/>
+					<ol>
+						<li> Principal </li>
+						<li> Formulario </li>
+						<li> Contacto </li>
+					</ol>
+				</nav>
+				
+				<fieldset name="identificacion" id="identificacion">
+					<legend>Identificación</legend>
+					
+					Nombr/e <input type="text" name="nombre" placeholder="Nombre" size="40">
+					Apellidos <input type="text" name="apellidos" placeholder="Apellidos" size="40"><br/>
+					NIF <input type="number" name="nifnum" placeholder="NIF" size="9" max="99999999">
+					Letra <input type="text" name="niflet" size="1" maxlength="1"><br/>
+					Fecha de nacimiento <input type="date" name="fecha" min="1900-01-01" max="2019-12-31"><br/>
+					Color favorito <input type="color" name="color"><br/>
+					Email <input type="email" name="correo" placeholder="...@gmail.com"  size="40"><br/>
+					Password <input type="password" name="contrasena" placeholder="Contraseña"  size="40"><br/>
+				</fieldset>
+				
+				<progress value="1" max="4"></progress>
+				
+				<fieldset name="estudios" id="estudios">
+				<legend>Estudios</legend>
+						<fieldset name="reglados" id="reglados">
+						<legend>Reglados</legend>
+							Oficiales
+							<select name="oficiales" id="oficiales" size="1">
+								<optgroup label="Educación Básica">
+									<option value="EGB">EGB</option>
+									<option value="Primaria">Primaria</option>
+								</optgroup>
+							
+								<optgroup label="Educación Media">
+									<option value="ESO">ESO</option>
+									<option value="Bachillerato">Bachillerato</option>
+									<option value="fpm">F.P.M</option>
+								</optgroup>
+								
+								<optgroup label="Educación Superior">
+									<option value="Universidad">Universidad</option>
+									<option value="fps">F.P.S</option>
+								</optgroup>	
+							</select><br/>
+							Idioma
+							<select name="Idioma" id="idioma">
+								<option value="ES" > Español </option>
+								<option value="PO" > Portugués </option>
+								<option value="EN" > Inglés </option>
+								<option value="FR" > Francés </option>
+							</select><br/>
+						</fieldset>
+						
+						<fieldset name="noreglados" id="noreglados">
+						<legend>No Reglados</legend>
+							Otros
+							<input type="text" name="otros" list="otros"/>
+							<datalist id="otros">
+								<option value="Artes" label="Artes"/>
+								<option value="Teatro" label="Teatro"/>
+								<option value="Dibujo" label="Dibujo"/>
+							</datalist> 
+						</fieldset><br/>
+				</fieldset>
+				
+				<progress value="2" max="4"></progress>
+				
+				<fieldset name="satisfaccion" id="satisfaccion">
+				<legend>Satisfacción</legend>
+					<fieldset name="satisfaccion" id="satisfaccion">
+					<legend>Estudios</legend>
+						Bajo <input type="radio" name="Estudios"><br/>
+						Medio <input type="radio" name="Estudios" checked="checked" ><br/>
+						Alto <input type="radio" name="Estudios"><br/>
+					</fieldset>
+					<fieldset name="satisfaccion" id="satisfaccion">
+					<legend>Otros</legend>
+						Poco <input type="checkbox" name="Precios"><br/>
+						Normal <input type="checkbox" name="Variedad"><br/>
+						Mucho <input type="checkbox" name="Fiabilidad"><br/>
+					</fieldset>
+					Global <input type="range" name="global" max="10" min="0" step="1" ><br/>
+				</fieldset>	
+				
+				<progress value="3" max="4"></progress>
+				
+				<fieldset name="comentarios" id="comentarios">
+				<legend>Comentarios</legend>
+					<textarea cols="40" rows="5" name="opinion"></textarea><br/>
+					<input type="file" name="file"><br/>
+				</fieldset>	
+				
+				<progress value="4" max="4"></progress><br/><br/>
+				
+				<input type="submit" value="Enviar"/>
+				<input type="reset" value="Reset"/>
+				<input type="image" src="Media/Icono.png">
+			</form>	
+		</article>	
+	</body>
+	<footer>
+		<center> ❤ Página hecha por Iván García ❤</center>
+	</footer>
+</html>

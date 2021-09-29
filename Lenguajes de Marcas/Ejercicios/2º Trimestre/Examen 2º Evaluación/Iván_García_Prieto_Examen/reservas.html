@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" 
+						content="Parque Natural de Picos de Europa." />
+		<meta name="keywords" content="España, León, Asturias, Cantabria, Palencia, Picos de Europa" />
+		<title> Parque Natural de Picos de Europa </title>
+		<link rel="stylesheet" type="text/css" href="Estilos/Estilo1.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			<img src="Imagenes/logo.png" id="Logo"/>
+			<img src="Imagenes/macizo_oriental.png" id="Banner"/>
+			<h1 id= "TituloHeader"> PARQUE NATURAL DE PICOS DE EUROPA </h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">EL PARQUE</a></li>
+					<li><a href="visitas.html">VISITAS</a></li>
+					<li><a href="reservas.html">RESERVAS</a></li>
+					<li><a href="mailto:info@parquepicos.es">CONTACTO</a></li>
+				</ul>
+			</nav>
+		</header>
+			<div id= "Formulario">
+			<section>
+				<h1 class="TituloApartado"> RESERVAS </h1>
+				<article>	
+					<form id="Form01" name="Formulario" >
+				
+							<fieldset id="IDComprador" name="IDComprador" form="Form01">
+								<legend> Comprador: registro usuario </legend>
+								<fieldset id="IDUsuario" name="IDUsuario" form="Form01">
+									<legend> Datos Usuario </legend>
+									<label for="txtUsuario"> Nombre: </label>
+									<input id="txtUsuario" type="text" 
+										placeholder="Introduzca usuario" autofocus 
+										size="16" maxlength="15"  
+										pattern="[A-Z][a-zA-Z]{14}" />
+									<label for="pssContraseña"> Contraseña: </label>
+									<input id="pssContraseña" type="password" autofocus />		
+								</fieldset>
+								<br/>
+								<fieldset id="IDPersonales" name="IDPersonales" form="Form01">
+									<legend> Datos Personales </legend>
+									<label for="numNIF"> NIF, nº: </label>
+									<input id="numNIF" type="number" name="nNIF" 
+												min="0" max="99999999" size="8" 
+												pattern="[0-9]{8}" autofocus />
+									<label for="letraNIF"> NIF, letra: </label>
+									<input id="letraNIF" type="text" 
+										autofocus size="1" maxlength="1"  
+										pattern="[A-Z]" />
+									<p>
+										<label for="txtNombre"> Nombre: </label>
+										<input id="txtNombre" type="text" 
+											placeholder="Introduzca nombre" autofocus 
+											size="16" maxlength="15"  
+											pattern="[A-Z][a-zA-Z]{14}" />
+
+										<label for="txtApellidos"> Apellidos: </label>
+										<input id="txtApellidos" type="text" 
+											placeholder="Introduzca apellidos" autofocus 
+											size="16" maxlength="15"
+											pattern="[A-Z][a-zA-Z]{14}"/>	
+									</p>
+									<p>
+										<label for="FNac"> Fecha nacimiento: </label>
+										<input type="date" id="FNac" name="fechaNac" 
+												min="1900-01-01" max="2019-12-31" />
+									</p>
+									<p>
+										<label for="txtEmail"> eMail: </label>
+										<input id="txtEmail" type="email"  autofocus />
+									</p>
+									<p>
+										<label for="ColorFav"> Color favorito: </label>
+										<input id="ColorFav" type="color" name="color"/>
+									</p>
+									<p>
+										<label for="archivo"> Fotografía: </label>
+										<input type="file" id="archivo" name="archivo" 
+													accept=".jpg, .png, .gif"/>
+									</p>
+								</fieldset>
+							</fieldset>
+							
+							<p>
+							<progress value="1" max="4" /> 25% </progress>
+							</p>
+							
+							<fieldset id="CompraEntradas" name="CompraEntradas" form="Form01">
+								<legend> Compra de Entradas y Abonos Temporada </legend>
+								
+								<fieldset name="SelEntradas" form="Form01" >
+									<legend> Selección Entradas </legend>
+									
+									<label for="numEntradas"> Nº Entradas: </label>
+									<input id="numEntradas" type="number" name="numEntr" 
+											placeholder="1"
+											min="0" max="10" step="1" size="1" 
+											pattern="[0-10]{2}" autofocus />
+									<p>		
+										<label for="TipoEntrada" class="EtiquetaEnlinea"> 
+																Tipo Entrada/Abono: </label>
+										<select name="TipoEntrada" id="TipoEntrada" size="6" 
+												multiple>
+											<optgroup label="Entradas">
+												<option value="SesMañ">Sesión Mañana</option>
+												<option value="SesTar">Sesión Tarde</option>
+											</optgroup>
+											<optgroup label="Abonos">
+												<option value="Media">Media Temporada</option>
+												<option value="Total">Temporada</option>
+											</optgroup>
+										</select>
+										<p> <small> Nota: el elemento Tipo Entrada/Abono 
+												permite seleccionar
+												varias opciones entre las disponibles</small>
+									</p>
+									</p>
+									<fieldset name="Butacas" form="Form01">
+										<legend> Butacas </legend>
+										<p>
+										<label for="ButacaNum"> Numeradas: </label>
+										<input id="ButacaNum" type="radio" name="ElecButacas" 
+													value="Si" checked="checked" autofocus />
+										</p>
+										<p>
+										<label for="ButacaNumNo"> Sin Numerar: </label>
+										<input id="ButacaNumNo" type="radio" 
+													name="ElecButacas" 
+													value="No" autofocus />
+										</p>
+									</fieldset>
+									<fieldset name="TipoButaca" form="Form01">
+										<legend> Tipo Butaca </legend>
+										<p>
+										<label for="ButPatio"> Patio de Butacas: </label>
+										<input id="ButPatio" type="checkbox" name="TipBut" 
+													value="1" checked="checked" autofocus />
+										</p>
+										<p>
+										<label for="ButPalco"> Palco: </label>
+										<input id="ButPalco" type="checkbox" name="TipBut" 
+													value="2" autofocus />
+										</p>
+									</fieldset>
+								</fieldset>
+								<fieldset name="SelPago" form="Form01" >
+									<legend> Forma de Pago </legend>
+									<label for="SelMedPago" class="EtiquetaEnlinea"> 
+														Medio de Pago: </label>
+									<select name="SelMedPago" id="SelMedPago" size="3">
+										<option value="Ta" selected="" > Tarjeta </option>
+										<option value="Tr"> Transferencia </option>
+										<option value="Co"> Contado </option>
+									</select>
+									<p> <small> Nota: el elemento Medio de Pago solo permite 
+												seleccionar una opción entre las 
+												disponibles</small>
+									</p>
+									<br/>
+									<label for="Tarjeta" class="EtiquetaEnlinea"> Tarjeta: 
+											</label>
+									<input type="text" id="Tarjeta" name="Tarjeta" 
+															list="ListaTarjetas"/>
+										<datalist id="ListaTarjetas">
+											<option value="VI" label="VISA"/>
+											<option value="MA" label="Mastercard"/>
+										</datalist>
+									<p> <small> Nota: el elemento tarjeta permite introducir 
+												el tipo de tarjeta o seleccionar de una lista 
+												desplegable(VISA, Mastercard) </small>
+									</p>
+								</fieldset>
+
+							</fieldset>
+							
+							<p>
+							<progress value="3" max="4" /> 75% </progress>
+							</p>
+							
+							<fieldset id="Comentarios" name="Comentarios" form="Form01" >
+								<legend> Comentarios</legend>
+								
+								<textarea id="txtComentarios" rows="10" 
+																cols="100"></textarea>
+								
+												<fieldset name="Satisfaccion" form="Form01">
+								<legend> Satisfacción </legend>
+									<label for="SatGlobal"> Global </label>
+									<label for="SatGlobal"> 0 </label>
+									<input id="SatGlobal" type="range" 
+													name="SatisfaccionGlobal" 
+													min="0" max="10" step="1" autofocus />
+									<label for="SatGlobal"> 10 </label>
+									
+								</fieldset>
+							</fieldset>
+							
+							<p>
+							<progress value="4" max="4" /> 100% </progress>
+							</p>
+							
+							<input type="submit" />
+							<input type="reset" />
+						</form>	
+				</article>
+			</div>	
+				<aside>
+						<p> <b> <ins> Instrucciones del formulario </ins> </b> </p>
+						<p> Datos Usuario: </p>
+						<p> Debe introducir nombre de usuario y contraseña para registrarse en el sistema,
+							siéndo válido para posteriores tramitaciones.
+							<br/>
+							El acceso mediante usuario registrado permite recuperar y reimprimir las entradas
+							y abonos de temporada.
+							<br/>
+							Las entradas y abonos son nominativos, por lo que deberá introducir datos válidos
+							para una correcta identificación al acceso a las instalaciones.
+						</p>
+					</aside>
+			</section>
+			
+		</div>
+	
+		<footer>
+			<img id="ImagenPie" src="Imagenes/pie.png"/>
+		</footer>
+			
+	</body>
+	
+</html>

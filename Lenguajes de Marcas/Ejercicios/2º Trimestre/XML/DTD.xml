@@ -1,0 +1,86 @@
+<!ELEMENT XXX (AAA?,BBB+)>
+	<!ELEMENT AAA (CCC?,DDD*)>
+	<!ELEMENT BBB (CCC,DDD)>
+		<!ELEMENT CCC (#PCDATA)>
+		<!ELEMENT DDD (#PCDATA)>
+		
+---------------------------------------------
+		
+<receta>
+	<titulo>Tarta</titulo>
+	<ingrediente>Harina</ingrediente>
+	<ingrediente>Huevo</ingrediente>
+	<prodimiento>Horno</prodimiento>
+</receta>
+	
+<agenda>
+	<persona id = "123">
+		<nombre>Ivan</nombre>
+		<tlf>601100518</tlf>
+	</persona>
+	<persona id = "456">
+		<nombre>Luis</nombre>
+		<tlf>675087658</tlf>
+	</persona>
+</agenda>
+
+---------------------------------------------
+
+<!ELEMENT Lista_De_Personas (persona+)>
+	<!ELEMENT persona (nombre, fechanacimiento, telefono+, sexo?, numseg?)>
+		<!ATTLIST  persona nacionalidad CDATA #REQUIRED>
+		<!ELEMENT nombre(#PCDATA)>
+		<!ELEMENT fechanacimiento(#PCDATA)>
+		<!ELEMENT telefono(#PCDATA)>
+		<!ELEMENT sexo(#PCDATA)>
+		<!ELEMENT numseg (#PCDATA)>
+	
+---------------------------------------------	
+	
+<!ELEMENT Lista_De_Personas (persona+)>
+	<!ELEMENT persona (nombre, email+, parentesco)>
+		<!ATTLIST  persona carnet ID #REQUIRED
+						   sexo (Hombre | Mujer) #REQUIRED>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT email (#PCDATA)>
+		<!ELEMENT parentesco EMPTY>
+			<!ATTLIST parentesco progenitor IDREFS #IMPLIED
+									hermano IDREFS #IMPLIED>
+	
+---------------------------------------------
+
+<!ELEMENT fichero (factura+)>
+	<!ELEMENT factura (codclie | codprov, totalfactura, linea*)>
+		<!ATTLIST factura numfactura ID #REQUIRED>
+		<!ELEMENT codclie (#PCDATA)>
+		<!ELEMENT codprov (#PCDATA)>
+		<!ELEMENT totalfactura (#PCDATA)>
+		<!ELEMENT linea (codart, nombreart,cantidad,preciouni)>
+			<!ATTLIST linea numlinea CDATA #REQUIRED>
+				<!ELEMENT codart(#PCDATA)>
+				<!ELEMENT nombreart (#PCDATA)>
+				<!ELEMENT cantidad (#PCDATA)>
+				<!ELEMENT preciouni (#PCDATA)>
+	
+<fichero>
+	<factura numfactura = 1>
+		<codclie></codclie>
+		<totalfactura></totalfactura>
+		<linea numlinea = 1>
+				<codart></codart>
+				<nombreart></nombreart>
+				<cantidad></cantidad>
+				<preciouni></preciouni>
+		</linea>
+		
+		<linea numlinea = 2>...</linea>
+		
+	</factura>
+	
+	<factura>...</factura>
+	
+</fichero>
+	
+	
+	
+	

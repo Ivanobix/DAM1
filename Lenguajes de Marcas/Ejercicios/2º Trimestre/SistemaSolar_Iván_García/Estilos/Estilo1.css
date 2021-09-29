@@ -1,0 +1,205 @@
+html {
+	font-family: Courier New;
+	font-size: 16px;
+	color: white;
+}
+body {
+	background: linear-gradient(to left, #11003d, black);
+}
+
+/* --------------------------General-------------------------- */
+
+h1 {
+	font-family: Courier New;
+	font-size: 36px;
+	color: white;
+	background: linear-gradient(to right, #00fff3, black);
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	font-family: Courier New;
+	font-size: 26px;
+	color: #00fff3;
+	background: linear-gradient(to left, #11003d, black);
+	font-weight: bold;
+	text-align: center;
+}
+p {
+	color: white;
+	background: linear-gradient(to right, #11003d, black);
+	padding: 10px;
+	text-align: justify;
+}
+
+/* --------------------------Header-------------------------- */
+
+nav {
+	position: fixed;
+	top: 21%;
+	left: 0%;
+	display: inline-block;
+	background: linear-gradient(to right, #11003d, black);
+	font-size: 1.6vw;
+	color: #00fff3;
+	padding: 5px;
+	width: 100%;
+	height: 2.3vw;
+	text-align: center;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+nav a:hover {
+	color: #00fff3;
+}
+
+/* --------------------------Footer-------------------------- */
+
+footer {
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+/* --------------------------Index-------------------------- */
+
+#ContenidoInicio {
+	text-align: center;
+	padding-top: 14%;
+}
+.Banner {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 26%;
+}
+video {
+	width: 500px;
+}
+.BotonEntrada {
+	margin-top: 20px;
+	width: 100px;
+}
+
+/* --------------------------Lobby-------------------------- */
+
+#ContenidoLobby {
+	padding-top: 12%;
+	width: 100%;
+	margin-bottom:20px;
+
+}
+#ContenidoLobby img {
+	border: 1px solid #00fff3;
+	border-radius: 10px;
+}
+#ContenidoLobby a:hover img {
+	filter: brightness(120%);
+}
+#NoticiasAbajo {
+	text-align:center;
+}
+.Portada {
+	height: 481px;
+	width: 800px;
+}
+.Noticia {
+	width: 330px;
+	height: 300px;
+	margin: 5px;
+}
+.ArtLargo {
+	height: 300px;
+	width: 690px;
+	margin: 5px;
+}
+.ArtEspecial {
+	float: right;
+	width: 330px;
+	height: 300px;	
+	margin: 5px;
+}
+
+/* --------------------------Tabla-------------------------- */
+
+#ContenidoPlanetas {
+	padding-top: 13%;
+	width: 100%;
+}
+#TablaPlanetas {
+	height:800px;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(to right, #11003d, black);
+	color: white;
+}
+#TablaPlanetas td,th {
+	border: 2px solid  #00fff3;
+}
+#TablaPlanetas th {
+	background-color: #240039;
+}
+#TablaPlanetas img {
+	width: 100px;
+}
+.FotoAmpliable {
+	width: 140px;
+	height: 145px;
+}
+.Impar {
+	background: linear-gradient(to left, #11003d, black);
+}
+#TablaPlanetas img:hover {
+	width: 140px;
+}
+
+/* --------------------------Planetas-------------------------- */
+
+#Mapeado {
+	border: 1px solid #00fff3;
+	border-radius: 10px;
+}
+
+/* --------------------------Formulario-------------------------- */
+
+form {
+	font-family: inherit;
+	padding-bottom: 25px;
+}
+label {
+	width:100px;
+	display: inline-block;
+}
+input, select, textarea, datalist {
+	border: 1px solid #00fff3;
+	border-radius: 5px;
+	width: 150px;
+	box-sizing: border-box;
+	padding: 2px;
+	background: linear-gradient(to right, #11003d, black);
+	color: white;
+}
+textarea {
+	width: 500px;
+	height: 200px;
+}
+fieldset {
+	margin-bottom: 10px;
+	border-color: #00fff3;
+	border-radius: 10px;
+}
+input[type=file] {
+	width: 300px;
+}
+legend::first-letter {
+	color: #00fff3
+}
+
+
+background-image: url("imagenes/fondo.png");

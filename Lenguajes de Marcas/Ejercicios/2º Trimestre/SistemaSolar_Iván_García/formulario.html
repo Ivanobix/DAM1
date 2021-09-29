@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Web oficial de la NASA"/>
+		<meta name="keywords" content="NASA;Espacio;Planetas;"/>
+		<meta name="author" content="Iván García Prieto"/>
+		<link rel="stylesheet" type="text/css" href="Estilos/Estilo1.css">
+		<link rel="shortcut icon" href="Media/Icono.png"> 
+		<title>Planetas Sistema Solar</title>
+	</head>
+	<body>
+		<div id = "ContenidoPlanetas">		
+			<form>
+				<fieldset name="identificacion" id="identificacion">
+					<legend>Identificación</legend>				
+					<label for="Name">Nombre</label><input type="text" name="nombre" placeholder="Nombre" size="40" id="Name">
+					<label for="Apellidos">Apellidos</label><input type="text" name="apellidos" placeholder="Apellidos" size="40" id="Apellidos"><br/>
+					<label for="NIF">NIF</label><input type="number" name="nifnum" placeholder="NIF" size="9" max="99999999" id="NIF">
+					<label for="Letra">Letra</label><input type="text" name="niflet" size="1" maxlength="1" placeholder="Letra" id="Letra"><br/>
+					<label for="Fechanac">Fecha de nacimiento</label><input type="date" name="fecha" min="1900-01-01" max="2019-12-31" id="Fechanac"><br/>
+					<label for="Colorfav">Color favorito</label><input type="color" name="color" id="Colorfav"><br/>
+					<label for="Email">Email</label><input type="email" name="correo" placeholder="...@gmail.com"  size="40" id="Email"><br/>
+					<label for="Password">Password</label><input type="password" name="contrasena" placeholder="Contraseña"  size="40" id="Password"><br/>
+				</fieldset>
+				
+				<progress value="1" max="4"></progress>
+				
+				<fieldset name="estudios" id="estudios">
+				<legend>Estudios</legend>
+						<fieldset name="reglados" id="reglados">
+						<legend>Reglados</legend>
+							<label for="oficiales">Oficiales</label><select name="oficiales" id="Oficiales" size="1">
+								<optgroup label="Educación Básica">
+									<option value="EGB">EGB</option>
+									<option value="Primaria">Primaria</option>
+								</optgroup>
+							
+								<optgroup label="Educación Media">
+									<option value="ESO">ESO</option>
+									<option value="Bachillerato">Bachillerato</option>
+									<option value="fpm">F.P.M</option>
+								</optgroup>
+								
+								<optgroup label="Educación Superior">
+									<option value="Universidad">Universidad</option>
+									<option value="fps">F.P.S</option>
+								</optgroup>	
+							</select><br/>
+							
+							<label for="idioma">Idioma</label><select name="Idioma" id="idioma">
+								<option value="ES" > Español </option>
+								<option value="PO" > Portugués </option>
+								<option value="EN" > Inglés </option>
+								<option value="FR" > Francés </option>
+							</select><br/>
+						</fieldset>
+						
+						<fieldset name="noreglados" id="noreglados">
+						<legend>No Reglados</legend>
+							<label for="otros">Otros</label><input type="text" name="otros" list="otros"/>
+							<datalist id="otros">
+								<option value="Artes" label="Artes"/>
+								<option value="Teatro" label="Teatro"/>
+								<option value="Dibujo" label="Dibujo"/>
+							</datalist> 
+						</fieldset><br/>
+				</fieldset>
+				
+				<progress value="2" max="4"></progress>
+				
+				<fieldset name="satisfaccion" id="satisfaccion">
+				<legend>Satisfacción</legend>
+					<fieldset name="satisfaccion" id="satisfaccion">
+					<legend>Estudios</legend>
+						<label>Bajo</label><input type="radio" name="Estudios"><br/>
+						<label>Medio</label><input type="radio" name="Estudios" checked="checked" ><br/>
+						<label>Alto</label><input type="radio" name="Estudios"><br/>
+					</fieldset>
+					<fieldset name="satisfaccion" id="satisfaccion">
+					<legend>Otros</legend>
+						<label>Poco</label><input type="checkbox" name="Precios"><br/>
+						<label>Normal</label><input type="checkbox" name="Variedad"><br/>
+						<label>Mucho</label><input type="checkbox" name="Fiabilidad"><br/>
+					</fieldset>
+					<label>Global</label><input type="range" name="global" max="10" min="0" step="1" ><br/>
+				</fieldset>	
+				
+				<progress value="3" max="4"></progress>
+				
+				<fieldset name="comentarios" id="comentarios">
+				<legend>Comentarios</legend>
+					<textarea cols="40" rows="5" name="opinion"></textarea><br/>
+					<input type="file" name="file"><br/>
+				</fieldset>	
+				
+				<progress value="4" max="4"></progress><br/><br/>
+				
+				<input type="submit" value="Enviar"/>
+				<input type="reset" value="Reset"/>
+				
+			</form>
+		</div>
+		<header>
+			<img class = "Banner" src= "Media\Banner.jpg" alt="Banner"/>
+			<nav>
+				<a href = "index.html">|Inicio|</a>
+				<a href = "lobby.html">|Principal|</a>
+				<a href = "tabla_planetas.html">|Tabla Planetas|</a>
+				<a href = "planetas.html">|Resumen Planetas|</a>
+				<a href = "formulario.html">|Registro|</a>
+				<a href = "https://earth.google.com/web/@0,0,-24018.82718741a,36750128.22569847d,35y,0h,0t,0r/data=KAE">|Explorar|</a>
+			</nav>
+		</header>
+	</body>
+	<footer>
+		--- 🌟 Página Oficial de la NASA® 🌟 ---
+	</footer>
+</html>

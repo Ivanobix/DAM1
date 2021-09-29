@@ -1,0 +1,43 @@
+Sistema de gestión para almacenar los datos de los alumnos con un gestor de bases de datos.
+Enviar datos a la Dirección provincial con XML
+Página web con HTML+CSS+Javascrip/PHP
+
+
+<Documento ALUMNOS>
+	<Centro> ... </Centro>
+		<Alumno1>
+			<Nombre>...</Nombre>
+			<DNI> </DNI>
+			<Fecha Nacimiento>...</Fecha Nacimiento>
+			<Curso>...</Curso>
+			<Materias>...</Materias>
+
+		</Alumno1>
+		<Alumno2>
+			<Nombre>...</Nombre>
+			<DNI> </DNI>
+			<Fecha Nacimiento>...</Fecha Nacimiento>
+			<Curso>...</Curso>
+			<Materias>...</Materias>
+		</Alumno2>
+		<AlumnoN>
+			<Nombre>...</Nombre>
+			<DNI> </DNI>
+			<Fecha Nacimiento>...</Fecha Nacimiento>
+			<Curso>...</Curso>
+			<Materias>...</Materias>
+		</AlumnoN>
+
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> xxx </title>
+	</head>
+	<body>
+	
+	</body>
+	<footer>
+	
+	</footer>
+</html>

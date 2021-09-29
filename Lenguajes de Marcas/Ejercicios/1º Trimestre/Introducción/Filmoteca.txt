@@ -1,0 +1,20 @@
+<filmoteca>
+	<pelicula>
+		<titulo>...</titulo>
+		<año>...</año>
+		<director>...</director>
+		<reparto>...<reparto>
+	</pelicula>
+	<pelicula>
+		<titulo>...</titulo>
+		<año>...</año>
+		<director>...</director>
+		<reparto>...<reparto>
+	</pelicula>
+	<pelicula>
+		<titulo>...</titulo>
+		<año>...</año>
+		<director>...</director>
+		<reparto>...<reparto>
+	</pelicula>
+</filmoteca>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConEdu>
+	<IES nombre = "Lancia">
+		<cursos>
+			<curso nombre = "", nivel = "">
+				<alumnos>
+					<alumno>
+						<nombre></nombre>
+						<DNI></DNI>
+						<direccion>
+							<calle></calle>
+							<num></num>
+							<piso></piso>
+							<localidad></localidad>
+						</direccion>
+					</alumno>
+					...
+				</alumnos>
+				<tutor>
+					<codprofesor></codprofesor>
+				</tutor>
+			</curso>
+			...
+		</cursos>
+		
+		<profesores>
+			<profesor>
+				<nombre></nombre>
+				<DNI></DNI>
+				<cod></cod>
+			</profesor>
+			...
+		</profesores>
+		
+	</IES>
+	...
+</ConEdu>
